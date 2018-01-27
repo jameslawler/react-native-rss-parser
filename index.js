@@ -12,7 +12,8 @@ exports.parse = function(feed) {
       }
     }).parseFromString(feed, 'text/xml');
 
-    parsedFeed = parseNode(document, fields.rssv2);
+    let channel = document.getElementsByTagName('channel')[0];
+    parsedFeed = parseNode(channel, fields.rssv2);
     resolve(parsedFeed);
   });
 };
@@ -58,30 +59,32 @@ function parseNode(node, fields) {
   return parsedNode;
 }
 
-function getElements(item, tagName) {
-  if (!item || !item.getElementsByTagName(tagName)) {
+function getElements(node, tagName) {
+  if (!node || !node.getElementsByTagName(tagName)) {
     return [];
   }
 
-  return item.getElementsByTagName(tagName);
+  let elements = node.getElementsByTagName(tagName);
+
+  return Array.prototype.filter.call(elements, element => element.parentNode.nodeName === node.nodeName);
 }
 
-function getValueOrUndefined(item, tagName) {
-  const items = getElements(item, tagName);
+function getValueOrUndefined(node, tagName) {
+  const nodes = getElements(node, tagName);
 
-  if (!items || items.length === 0) {
+  if (!nodes || nodes.length === 0) {
     return undefined;
   }
 
-  return items[0].textContent;
+  return nodes[0].textContent;
 }
 
-function getAttributeOrUndefined(item, tagName, attribute) {
-  const items = getElements(item, tagName);
+function getAttributeOrUndefined(node, tagName, attribute) {
+  const nodes = getElements(node, tagName);
 
-  if (!items || items.length === 0) {
+  if (!nodes || nodes.length === 0) {
     return undefined;
   }
 
-  return items[0].getAttribute(attribute);
+  return nodes[0].getAttribute(attribute);
 }

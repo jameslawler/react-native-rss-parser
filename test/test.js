@@ -1,6 +1,7 @@
 var assert = require('assert');
 var rssv2 = require('./samples/rssv2');
 var rssv2InvalidFormat = require('./samples/rssv2-invalid-format');
+var rssv2MultipleCategories = require('./samples/rssv2-multiple-categories');
 var rssParser = require('../index');
 
 describe('when rss parse', function() {
@@ -31,6 +32,20 @@ describe('when rss parse', function() {
           assert.equal(result.items[1].pubDate, 'Sun, 29 Sep 2002 19:59:01 GMT');
           assert.equal(result.items[1].guids.length, 1);
           assert.equal(result.items[1].guids[0].value, 'http://scriptingnews.userland.com/backissues/2002/09/29#When:12:59:01PM');
+        });
+    });
+  });
+
+  describe('multiple categories', function() {
+    it('should return correct arrays when multiple groups with the same key', function() {
+      return rssParser.parse(rssv2MultipleCategories.feed)
+        .then((result) => {
+          assert.equal(result.categories.length, 2);
+          assert.equal(result.categories[0].value, 'channel-category-1');
+          assert.equal(result.categories[1].value, 'channel-category-2');
+          assert.equal(result.items[1].categories.length, 2);
+          assert.equal(result.items[1].categories[0].value, 'item-category-1');
+          assert.equal(result.items[1].categories[1].value, 'item-category-2');
         });
     });
   });
