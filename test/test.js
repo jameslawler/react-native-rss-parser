@@ -36,7 +36,7 @@ describe('when rss parse', function() {
   });
 
   describe('invalid document', function() {
-    it('should return rss items', function() {
+    it('should reject promise', function() {
       rssParser.parse(rssv2InvalidFormat.feed)
         .then((result) => {
           assert.fail('Should be invalid');
