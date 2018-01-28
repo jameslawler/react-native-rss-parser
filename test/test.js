@@ -2,6 +2,7 @@ var assert = require('assert');
 var rssv2 = require('./samples/rssv2');
 var rssv2InvalidFormat = require('./samples/rssv2-invalid-format');
 var rssv2MultipleCategories = require('./samples/rssv2-multiple-categories');
+var rssv2InvalidNoChannel = require('./samples/rssv2-invalid-no-channel');
 var rssParser = require('../index');
 
 describe('when rss parse', function() {
@@ -18,6 +19,7 @@ describe('when rss parse', function() {
           assert.equal(result.generator, 'Radio UserLand v8.0.5');
           assert.equal(result.categories.length, 1);
           assert.equal(result.categories[0].value, '1765');
+          assert.equal(result.image.url, "http://www.example.com/image.jpg");
           assert.equal(result.managingEditor, 'dave@userland.com');
           assert.equal(result.webMaster, 'dave@userland.com');
           assert.equal(result.ttl, '40');
@@ -52,12 +54,24 @@ describe('when rss parse', function() {
 
   describe('invalid document', function() {
     it('should reject promise', function() {
-      rssParser.parse(rssv2InvalidFormat.feed)
+      return rssParser.parse(rssv2InvalidFormat.feed)
         .then((result) => {
           assert.fail('Should be invalid');
         })
         .catch((error) => {
-          //
+          assert.notEqual(error, undefined);
+        });
+    });
+  });
+
+  describe('when feed has no channel element', function() {
+    it('should reject promise', function() {
+      return rssParser.parse(rssv2InvalidNoChannel.feed)
+        .then((result) => {
+          assert.fail('Should be invalid');
+        })
+        .catch((error) => {
+          assert.equal(error, 'Unable to find <channel> element in feed');
         });
     });
   });
