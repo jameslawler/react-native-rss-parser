@@ -1,9 +1,8 @@
 # react-native-rss-parser
 > React Native compatible RSS parser
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![NPM Version][https://img.shields.io/npm/v/react-native-rss-parser.svg?style=flat-square]][https://npmjs.org/package/react-native-rss-parser]
+[![Downloads Stats][https://img.shields.io/npm/dm/react-native-rss-parser.svg?style=flat-square]][https://npmjs.org/package/react-native-rss-parser]
 
 Parse RSS data into a simple object structure. Currently supports;
 * RSS 2.0 specification
