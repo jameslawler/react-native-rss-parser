@@ -14,7 +14,7 @@ fields.rssv2 = {
  'lastBuildDate': { type: types.object },
  'category': { 
    type: types.array,
-   plural: 'categories'
+   fieldOverride: 'categories'
   },
  'generator': { type: types.object },
  'ttl': { type: types.object },
@@ -34,26 +34,26 @@ fields.rssv2 = {
  },
  'item': {
    type: types.array,
-   plural: 'items',
+   fieldOverride: 'items',
    elements: {
     'title': { type: types.object },
     'link': { type: types.object },
     'description': { type: types.object },
     'author': { 
       type: types.array,
-      plural: 'authors'
+      fieldOverride: 'authors'
     },
     'category': { 
       type: types.array,
-      plural: 'categories'
+      fieldOverride: 'categories'
     },
     'comments': { 
       type: types.array,
-      plural: 'comments'
+      fieldOverride: 'comments'
     },
     'enclosure': {
       type: types.array,
-      plural: 'enclosures',
+      fieldOverride: 'enclosures',
       attributes: {
        'url': { type: types.object },
        'length': { type: types.object },
@@ -62,7 +62,7 @@ fields.rssv2 = {
     },
     'guid': {
       type: types.array,
-      plural: 'guids'
+      fieldOverride: 'guids'
     },
     'pubDate': { type: types.object },
     'source': {

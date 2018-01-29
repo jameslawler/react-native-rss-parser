@@ -27,18 +27,21 @@ function parseFields(node, fields) {
 
   Object.keys(fields).forEach(function(key) {
     const field = fields[key];
+    const parsedFieldKey = field.fieldOverride || key;
 
     if (field.type === types.object) {
-      if (field.attributes) {
-        parsedNode[key] = {};
+      if (field.attribute) {
+        parsedNode[parsedFieldKey] = getElementAttributeContent(node, key, field.attribute);
+      } else if (field.attributes) {
+        parsedNode[parsedFieldKey] = {};
         Object.keys(field.attributes).forEach(function(attribute) {
-          parsedNode[key][attribute] = getElementAttributeContent(node, key, attribute);
+          parsedNode[parsedFieldKey][attribute] = getElementAttributeContent(node, key, attribute);
         });
       } else {
-        parsedNode[key] = getElementTextContent(node, key);
+        parsedNode[parsedFieldKey] = getElementTextContent(node, key);
       }
     } else if (field.type === types.array) {
-      parsedNode[field.plural] = [];
+      parsedNode[parsedFieldKey] = [];
       const elements = getChildElements(node, key);
       
       Array.prototype.forEach.call(elements, element => {
@@ -56,7 +59,7 @@ function parseFields(node, fields) {
           });
         }
 
-        parsedNode[field.plural].push(arrayNode);
+        parsedNode[parsedFieldKey].push(arrayNode);
       });
     }
   });
