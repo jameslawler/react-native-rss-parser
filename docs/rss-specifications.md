@@ -37,4 +37,4 @@
 | categories    | category      | category      |
 | authors       | author        | contributor   |
 | published     | pubDate       | published     |
-
+| enclosures    | enclosures    | 
