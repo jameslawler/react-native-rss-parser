@@ -12,12 +12,16 @@ exports.parse = function(feed) {
     }).parseFromString(feed, 'text/xml');
 
     let channel = document.getElementsByTagName('channel')[0];
+    let feedElement = document.getElementsByTagName('feed')[0];
 
-    if (!channel) {
-      reject('Unable to find <channel> element in feed');
-    } else {
+    if (channel) {
       parsedFeed = parseFields(channel, fields.rssv2);
-      resolve(parsedFeed);    
+      resolve(parsedFeed);
+    } else if (feedElement) {
+      parsedFeed = parseFields(feedElement, fields.atomv1);
+      resolve(parsedFeed);
+    } else {
+      reject('Unable to find any RSS element in feed');
     }
   });
 };

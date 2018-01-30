@@ -74,3 +74,34 @@ fields.rssv2 = {
    }
  }
 };
+
+fields.atomv1 = {
+ 'title': { type: types.object },
+ 'link': {
+   type: types.object,
+   attribute: 'href'
+  },
+ 'subtitle': {
+   type: types.object,
+   fieldOverride: 'description'
+  },
+  'copyright': {
+    type: types.object,
+    fieldOverride: 'rights'
+  },
+  'entry': {
+    type: types.array,
+    fieldOverride: 'items',
+    elements: {
+     'title': { type: types.object },
+     'link': {
+      type: types.object,
+      attribute: 'href'
+     },
+     'summary': {
+      type: types.object,
+      fieldOverride: 'description'
+     }
+    }
+  }
+};
