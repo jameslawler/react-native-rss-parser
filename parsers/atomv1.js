@@ -3,8 +3,11 @@ var model = require('../model/rss');
 
 exports.parse = function(document) {
   let parsedFeed = Object.assign({}, model.rss);
+  
   parsedFeed = mapChannelFields(document, parsedFeed);
-  parsedFeed.items = mapItems(document)
+  parsedFeed.type = 'atom-v1';
+  parsedFeed.items = mapItems(document);
+
   return parsedFeed;
 };
 
@@ -99,6 +102,7 @@ function mapItems(document) {
       title: getItemTitle(item),
       links: getItemLinks(item),
       description: getItemDescription(item),
+      content: getItemContent(item),
       authors: getItemAuthors(item),
       categories: getItemCategories(item),
       published: getItemPublished(item),
@@ -126,6 +130,10 @@ function getItemLinks(node) {
 
 function getItemDescription(node) {
   return utils.getElementTextContent(node, 'summary');
+}
+
+function getItemContent(node) {
+  return utils.getElementTextContent(node, 'content');
 }
 
 function getItemAuthors(node) {

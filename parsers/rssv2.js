@@ -3,8 +3,11 @@ var model = require('../model/rss');
 
 exports.parse = function(document) {
   let parsedFeed = Object.assign({}, model.rss);
+
   parsedFeed = mapChannelFields(document, parsedFeed);
-  parsedFeed.items = mapItems(document)
+  parsedFeed.type = 'rss-v2';
+  parsedFeed.items = mapItems(document);
+
   return parsedFeed;
 };
 
