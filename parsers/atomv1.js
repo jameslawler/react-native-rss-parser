@@ -1,5 +1,167 @@
 var utils = require('./utils');
+var model = require('../model/rss');
 
 exports.parse = function(document) {
-  
+  let parsedFeed = Object.assign({}, model.rss);
+  parsedFeed = mapChannelFields(document, parsedFeed);
+  parsedFeed.items = mapItems(document)
+  return parsedFeed;
 };
+
+function mapChannelFields(document, parsedFeed) {
+  const channelNodes = utils.getElements(document, 'feed');
+
+  if (!channelNodes || channelNodes.length === 0) {
+    throw new Error('Could not find channel node');
+  }
+
+  const channelNode = channelNodes[0];
+
+  parsedFeed.title = getChannelTitle(channelNode);
+  parsedFeed.links = getChannelLinks(channelNode);
+  parsedFeed.description = getChannelDescription(channelNode);
+  parsedFeed.copyright = getChannelCopyright(channelNode);
+  parsedFeed.authors = getChannelAuthors(channelNode);
+  parsedFeed.lastUpdated = getChannelLastUpdated(channelNode);
+  parsedFeed.lastPublished = getChannelLastPublished(channelNode);
+  parsedFeed.categories = getChannelCategories(channelNode);
+  parsedFeed.image = getChannelImage(channelNode);
+
+  return parsedFeed;
+}
+
+function getChannelTitle(node) {
+  return utils.getElementTextContent(node, 'title');
+}
+
+function getChannelLinks(node) {
+  const links = utils.getChildElements(node, 'link');
+
+  return links.map(function(link) {
+    return {
+      url: link.getAttribute('href'),
+      rel: link.getAttribute('rel')
+    };
+  });
+}
+
+function getChannelDescription(node) {
+  return utils.getElementTextContent(node, 'subtitle');
+}
+
+function getChannelCopyright(node) {
+  return utils.getElementTextContent(node, 'rights');
+}
+
+function getChannelAuthors(node) {
+  const authors = utils.getChildElements(node, 'author');
+
+  return authors.map(function(author) {
+    return {
+      name: utils.getElementTextContent(author, 'name')
+    };
+  });
+}
+
+function getChannelLastUpdated(node) {
+  return utils.getElementTextContent(node, 'updated');
+}
+
+function getChannelLastPublished(node) {
+  return utils.getElementTextContent(node, 'published');
+}
+
+function getChannelCategories(node) {
+  const categories = utils.getChildElements(node, 'category');
+
+  return categories.map(function(category) {
+    return {
+      name: category.getAttribute('term')
+    }
+  });
+}
+
+function getChannelImage(node) {
+  return {
+    url: utils.getElementTextContent(node, 'image'),
+    title: undefined,
+    description: undefined,
+    width: undefined,
+    height: undefined,
+  };
+}
+
+function mapItems(document) {
+  const itemNodes = utils.getElements(document, 'entry');
+
+  return itemNodes.map(function(item) {
+    return {
+      title: getItemTitle(item),
+      links: getItemLinks(item),
+      description: getItemDescription(item),
+      authors: getItemAuthors(item),
+      categories: getItemCategories(item),
+      published: getItemPublished(item),
+      enclosures: getItemEnclosures(item)
+    };
+  });
+}
+
+function getItemTitle(node) {
+  return utils.getElementTextContent(node, 'title');
+}
+
+function getItemLinks(node) {
+  const links = utils.getChildElements(node, 'link');
+  const linksWithoutEnclosures = links.filter(link =>
+    link.getAttribute('rel') !== 'enclosure');
+
+  return linksWithoutEnclosures.map(function(link) {
+    return {
+      url: link.getAttribute('href'),
+      rel: link.getAttribute('rel')
+    };
+  });
+}
+
+function getItemDescription(node) {
+  return utils.getElementTextContent(node, 'summary');
+}
+
+function getItemAuthors(node) {
+  const authors = utils.getChildElements(node, 'author');
+
+  return authors.map(function(author) {
+    return {
+      name: utils.getElementTextContent(author, 'name')
+    };
+  });
+}
+
+function getItemCategories(node) {
+  const categories = utils.getChildElements(node, 'category');
+
+  return categories.map(function(category) {
+    return {
+      name: category.getAttribute('term')
+    }
+  });
+}
+
+function getItemPublished(node) {
+  return utils.getElementTextContent(node, 'published');
+}
+
+function getItemEnclosures(node) {
+  const links = utils.getChildElements(node, 'link');
+  const enclosureLinks = links.filter(link =>
+    link.getAttribute('rel') === 'enclosure');
+
+  return enclosureLinks.map(function(link) {
+    return {
+      url: link.getAttribute('href'),
+      length: link.getAttribute('length'),
+      mimeType: link.getAttribute('type')
+    };
+  });
+}

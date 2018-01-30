@@ -10,6 +10,7 @@ exports.feed = `
   <entry>
     <title>Where Did The Cookie Come From</title>
     <link href="http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from.html" rel="alternate" type="text/html" title="Where Did The Cookie Come From" />
+    <link href="https://www.example.com/audio.mp3" rel="enclosure" type="audio/mpeg" length="1234" />
     <published>2016-01-02T00:00:00+13:00</published>
     <updated>2016-01-02T00:00:00+13:00</updated>
     <id>http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from</id>

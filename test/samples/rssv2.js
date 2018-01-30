@@ -5,6 +5,7 @@ exports.feed = `
 	<channel>
 		<title>Scripting News</title>
 		<link>http://www.scripting.com/</link>
+		<link>http://www.scripting2.com/</link>
 		<description>A weblog about scripting and stuff like that.</description>
 		<language>en-us</language>
 		<blogChannel:blogRoll>http://radio.weblogs.com/0001015/userland/scriptingNewsLeftLinks.opml</blogChannel:blogRoll>

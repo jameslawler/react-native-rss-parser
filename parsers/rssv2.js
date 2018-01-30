@@ -18,7 +18,7 @@ function mapChannelFields(document, parsedFeed) {
   const channelNode = channelNodes[0];
 
   parsedFeed.title = getChannelTitle(channelNode);
-  parsedFeed.link = getChannelLink(channelNode);
+  parsedFeed.links = getChannelLinks(channelNode);
   parsedFeed.description = getChannelDescription(channelNode);
   parsedFeed.language = getChannelLanguage(channelNode);
   parsedFeed.copyright = getChannelCopyright(channelNode);
@@ -35,8 +35,15 @@ function getChannelTitle(node) {
   return utils.getElementTextContent(node, 'title');
 }
 
-function getChannelLink(node) {
-  return utils.getElementTextContent(node, 'link');
+function getChannelLinks(node) {
+  const links = utils.getChildElements(node, 'link');
+
+  return links.map(function(link) {
+    return {
+      url: link.textContent,
+      rel: link.getAttribute('rel')
+    };
+  });
 }
 
 function getChannelDescription(node) {
@@ -95,7 +102,7 @@ function mapItems(document) {
   return itemNodes.map(function(item) {
     return {
       title: getItemTitle(item),
-      link: getItemLink(item),
+      links: getItemLinks(item),
       description: getItemDescription(item),
       authors: getItemAuthors(item),
       categories: getItemCategories(item),
@@ -109,8 +116,15 @@ function getItemTitle(node) {
   return utils.getElementTextContent(node, 'title');
 }
 
-function getItemLink(node) {
-  return utils.getElementTextContent(node, 'link');
+function getItemLinks(node) {
+  const links = utils.getChildElements(node, 'link');
+
+  return links.map(function(link) {
+    return {
+      url: link.textContent,
+      rel: link.getAttribute('rel')
+    };
+  });
 }
 
 function getItemDescription(node) {

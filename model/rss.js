@@ -3,7 +3,10 @@ const model = module.exports = {};
 model.rss = {
   type: undefined,
   title: undefined,
-  link: undefined,
+  links: [{
+    url: undefined,
+    rel: undefined
+  }],
   description: undefined,
   language: undefined,
   copyright: undefined,
@@ -24,7 +27,10 @@ model.rss = {
   },
   items: [{
     title: undefined,
-    link: undefined,
+    links: [{
+      url: undefined,
+      rel: undefined
+    }],
     description: undefined,
     content: undefined,
     categories: [{
