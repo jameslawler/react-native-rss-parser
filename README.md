@@ -112,16 +112,20 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
 
 ## Development setup
 
-Clone this project from [GitHub](https://github.com/jameslawler/react-native-rss-parser) 
+Clone this project from [GitHub](https://github.com/jameslawler/react-native-rss-parser)
 
 ```sh
 npm install
 npm test
 ```
 
+## Bugs / feature requests
+
+If you find any bugs or have a feature request, please create an issue in [GitHub](https://github.com/jameslawler/react-native-rss-parser).
+
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it (<https://github.com/jameslawler/react-native-rss-parser>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
