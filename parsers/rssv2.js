@@ -90,12 +90,26 @@ function getChannelCategories(node) {
 }
 
 function getChannelImage(node) {
+  const imageNodes = utils.getChildElements(node, 'image');
+
+  if (imageNodes.length === 0) {
+    return {
+      url: undefined,
+      title: undefined,
+      description: undefined,
+      width: undefined,
+      height: undefined
+    };
+  }
+
+  const imageNode = imageNodes[0];
+
   return {
-    url: utils.getElementAttributeContent(node, 'image', 'url'),
-    title: utils.getElementAttributeContent(node, 'image', 'title'),
-    description: utils.getElementAttributeContent(node, 'image', 'description'),
-    width: utils.getElementAttributeContent(node, 'image', 'width'),
-    height: utils.getElementAttributeContent(node, 'image', 'height'),
+    url: utils.getElementTextContent(imageNode, 'url'),
+    title: utils.getElementTextContent(imageNode, 'title'),
+    description: utils.getElementTextContent(imageNode, 'description'),
+    width: utils.getElementTextContent(imageNode, 'width'),
+    height: utils.getElementTextContent(imageNode, 'height'),
   };
 }
 

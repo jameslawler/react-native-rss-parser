@@ -21,7 +21,8 @@ describe('when rss parse', function() {
           assert.equal(result.lastPublished, undefined);
           assert.equal(result.categories.length, 1);
           assert.equal(result.categories[0].name, '1765');
-          assert.equal(result.image.url, "http://www.example.com/image.jpg");
+          assert.equal(result.image.url, 'http://www.example.com/image.jpg');
+          assert.equal(result.image.title, 'test image');
           assert.equal(result.authors.length, 1);
           assert.equal(result.authors[0].name, 'dave@userland.com');
           assert.equal(result.items.length, 9);

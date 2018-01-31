@@ -18,7 +18,10 @@ exports.feed = `
 		<category domain="Syndic8">1765</category>
 		<managingEditor>dave@userland.com</managingEditor>
 		<webMaster>dave@userland.com</webMaster>
-		<image url="http://www.example.com/image.jpg" title="test image" />
+		<image>
+			<url>http://www.example.com/image.jpg</url>
+			<title>test image</title>
+		</image>
 		<ttl>40</ttl>
 		<item>
 			<description>&quot;rssflowersalignright&quot;With any luck we should have one or two more days of namespaces stuff here on Scripting News. It feels like it's winding down. Later in the week I'm going to a &lt;a href=&quot;http://harvardbusinessonline.hbsp.harvard.edu/b02/en/conferences/conf_detail.jhtml?id=s775stg&amp;pid=144XCF&quot;&gt;conference&lt;/a&gt; put on by the Harvard Business School. So that should change the topic a bit. The following week I'm off to Colorado for the &lt;a href=&quot;http://www.digitalidworld.com/conference/2002/index.php&quot;&gt;Digital ID World&lt;/a&gt; conference. We had to go through namespaces, and it turns out that weblogs are a great way to work around mail lists that are clogged with &lt;a href=&quot;http://www.userland.com/whatIsStopEnergy&quot;&gt;stop energy&lt;/a&gt;. I think we solved the problem, have reached a consensus, and will be ready to move forward shortly.</description>
