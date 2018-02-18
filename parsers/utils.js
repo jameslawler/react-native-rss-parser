@@ -8,19 +8,25 @@ exports.getElements = function(node, tagName) {
   return Array.prototype.slice.call(elements);
 }
 
-exports.getChildElements = function(node, tagName) {
-  if (!node || !node.getElementsByTagName(tagName)) {
+exports.getChildElements = function(node, tagName, namespace) {
+  if (!node) {
     return [];
   }
 
-  let elements = node.getElementsByTagName(tagName);
+  let elements = namespace ?
+    node.getElementsByTagNameNS(namespace, tagName) :
+    node.getElementsByTagName(tagName);
+
+  if (!elements) {
+    return [];
+  }
 
   return Array.prototype.filter.call(elements, element => 
     element.parentNode.nodeName === node.nodeName);
 }
 
-exports.getElementTextContentArray = function(node, tagName) {
-  const nodes = this.getChildElements(node, tagName);
+exports.getElementTextContentArray = function(node, tagName, namespace) {
+  const nodes = this.getChildElements(node, tagName, namespace);
 
   if (!nodes || nodes.length === 0) {
     return [];
@@ -29,18 +35,8 @@ exports.getElementTextContentArray = function(node, tagName) {
   return nodes.map(node => node.textContent);
 }
 
-exports.getElementTextContent = function(node, tagName) {
-  const array = this.getElementTextContentArray(node, tagName);
+exports.getElementTextContent = function(node, tagName, namespace) {
+  const array = this.getElementTextContentArray(node, tagName, namespace);
 
   return array.length === 0 ? undefined : array[0];
-}
-
-exports.getElementAttributeContent = function(node, tagName, attribute) {
-  const nodes = this.getChildElements(node, tagName);
-
-  if (!nodes || nodes.length === 0) {
-    return undefined;
-  }
-
-  return nodes[0].getAttribute(attribute);
 }

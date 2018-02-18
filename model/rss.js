@@ -25,6 +25,28 @@ model.rss = {
     width: undefined,
     height: undefined
   },
+  itunes: {
+    author: [{
+      name: undefined
+    }],
+    block: undefined,
+    categories: [{
+      name: undefined,
+      subCategories:[{
+        name: undefined
+      }]
+    }],
+    image: undefined,
+    explicit: undefined,
+    complete: undefined,
+    newFeedUrl: undefined,
+    owner: {
+      name: undefined,
+      email: undefined,
+    },
+    subtitle: undefined,
+    summary: undefined,
+  },
   items: [{
     title: undefined,
     links: [{
