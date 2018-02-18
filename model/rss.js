@@ -25,6 +25,28 @@ model.rss = {
     width: undefined,
     height: undefined
   },
+  itunes: {
+    author: [{
+      name: undefined
+    }],
+    block: undefined,
+    categories: [{
+      name: undefined,
+      subCategories:[{
+        name: undefined
+      }]
+    }],
+    image: undefined,
+    explicit: undefined,
+    complete: undefined,
+    newFeedUrl: undefined,
+    owner: {
+      name: undefined,
+      email: undefined,
+    },
+    subtitle: undefined,
+    summary: undefined,
+  },
   items: [{
     title: undefined,
     links: [{
@@ -44,6 +66,19 @@ model.rss = {
       url: undefined,
       length: undefined,
       mimeType: undefined
-    }]
+    }],
+    itunes: {
+      authors: [{
+        name: undefined,
+      }],
+      block: undefined,
+      duration: undefined,
+      explicit: undefined,
+      image: undefined,
+      isClosedCaptioned: undefined,
+      order: undefined,
+      subtitle: undefined,
+      summary: undefined,
+    }
   }]
 };

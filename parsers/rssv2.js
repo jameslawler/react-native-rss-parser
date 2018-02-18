@@ -1,5 +1,6 @@
 var utils = require('./utils');
 var model = require('../model/rss');
+var itunesParser = require('./itunes');
 
 exports.parse = function(document) {
   let parsedFeed = Object.assign({}, model.rss);
@@ -30,6 +31,7 @@ function mapChannelFields(document, parsedFeed) {
   parsedFeed.lastPublished = getChannelLastPublished(channelNode);
   parsedFeed.categories = getChannelCategories(channelNode);
   parsedFeed.image = getChannelImage(channelNode);
+  parsedFeed.itunes = itunesParser.parseChannel(channelNode);
 
   return parsedFeed;
 }
@@ -124,7 +126,8 @@ function mapItems(document) {
       authors: getItemAuthors(item),
       categories: getItemCategories(item),
       published: getItemPublished(item),
-      enclosures: getItemEnclosures(item)
+      enclosures: getItemEnclosures(item),
+      itunes: itunesParser.parseItem(item)
     };
   });
 }
