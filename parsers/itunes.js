@@ -16,6 +16,20 @@ exports.parseChannel = function(node) {
   }
 };
 
+exports.parseItem = function(node) {
+  return {
+    authors: getAuthors(node),
+    block: getBlock(node),
+    duration: getDuration(node),
+    explicit: getExplicit(node),
+    image: getImage(node),
+    isClosedCaptioned: getIsClosedCaptioned(node),
+    order: getOrder(node),
+    subtitle: getSubtitle(node),
+    summary: getSummary(node),
+  };
+};
+
 function getAuthors(node) {
   const authors = utils.getElementTextContentArray(node, 'author', namespaces.itunes);
 
@@ -59,6 +73,10 @@ function getComplete(node) {
   return utils.getElementTextContent(node, 'complete', namespaces.itunes);
 }
 
+function getDuration(node) {
+  return utils.getElementTextContent(node, 'duration', namespaces.itunes);
+}
+
 function getExplicit(node) {
   return utils.getElementTextContent(node, 'explicit', namespaces.itunes);
 }
@@ -73,8 +91,16 @@ function getImage(node) {
   return undefined;
 }
 
+function getIsClosedCaptioned(node) {
+  return utils.getElementTextContent(node, 'isClosedCaptioned', namespaces.itunes);
+}
+
 function getNewFeedUrl(node) {
   return utils.getElementTextContent(node, 'new-feed-url', namespaces.itunes);
+}
+
+function getOrder(node) {
+  return utils.getElementTextContent(node, 'order', namespaces.itunes);
 }
 
 function getOwner(node) {

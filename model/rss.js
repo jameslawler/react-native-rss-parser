@@ -66,6 +66,19 @@ model.rss = {
       url: undefined,
       length: undefined,
       mimeType: undefined
-    }]
+    }],
+    itunes: {
+      authors: [{
+        name: undefined,
+      }],
+      block: undefined,
+      duration: undefined,
+      explicit: undefined,
+      image: undefined,
+      isClosedCaptioned: undefined,
+      order: undefined,
+      subtitle: undefined,
+      summary: undefined,
+    }
   }]
 };

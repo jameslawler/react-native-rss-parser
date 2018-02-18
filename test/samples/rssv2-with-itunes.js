@@ -29,20 +29,21 @@ exports.feed = `
         <item>
             <title>Shake Shake Shake Your Spices</title>
             <itunes:author>John Doe</itunes:author>
+            <itunes:block>yes</itunes:block>
             <itunes:subtitle>A short primer on table spices</itunes:subtitle>
-            <itunes:summary><![CDATA[This week we talk about 
-                <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>
-                , comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!]]></itunes:summary>
+            <itunes:summary><![CDATA[This week we talk about <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!]]></itunes:summary>
             <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg"/>
             <enclosure length="8727310" type="audio/x-m4a" url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a"/>
             <guid>http://example.com/podcasts/archive/aae20140615.m4a</guid>
             <pubDate>Tue, 08 Mar 2016 12:00:00 GMT</pubDate>
             <itunes:duration>07:04</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:order>1</itunes:order>
         </item>
         <item>
             <title>Socket Wrench Shootout</title>
             <itunes:author>Jane Doe</itunes:author>
+            <itunes:block>no</itunes:block>
             <itunes:subtitle>Comparing socket wrenches is fun!</itunes:subtitle>
             <itunes:summary>This week we talk about metric vs. Old English socket wrenches. Which one is better? Do you really need both? Get all of your answers here.</itunes:summary>
             <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg"/>
@@ -51,6 +52,7 @@ exports.feed = `
             <pubDate>Wed, 09 Mar 2016 13:00:00 EST</pubDate>
             <itunes:duration>04:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
+            <itunes:order>2</itunes:order>
         </item>
         <item>
             <title>The Best Chili</title>

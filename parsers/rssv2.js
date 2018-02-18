@@ -126,7 +126,8 @@ function mapItems(document) {
       authors: getItemAuthors(item),
       categories: getItemCategories(item),
       published: getItemPublished(item),
-      enclosures: getItemEnclosures(item)
+      enclosures: getItemEnclosures(item),
+      itunes: itunesParser.parseItem(item)
     };
   });
 }
