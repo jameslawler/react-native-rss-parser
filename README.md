@@ -6,7 +6,7 @@ This is a fork of react-native-rss-parser
 > https://github.com/jameslawler/react-native-rss-parser/
 
 ## Changelog
-#### 1.1.0
+### 1.1.0
 > (forked)
 
 ### 1.2.0
