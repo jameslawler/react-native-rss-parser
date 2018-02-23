@@ -1,7 +1,7 @@
 # React-Native RSS parser X
-## About this project
-A React Native compatible RSS parser.
+A React Native compatible RSS parser
 
+## About this project
 This is a fork of react-native-rss-parser
 > https://github.com/jameslawler/react-native-rss-parser/
 
