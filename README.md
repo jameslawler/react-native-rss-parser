@@ -1,14 +1,15 @@
 # React-Native RSS parser X
-> A React Native compatible RSS parser
+A React Native compatible RSS parser
 
 ## About this project
 This is a fork of react-native-rss-parser
 > https://github.com/jameslawler/react-native-rss-parser/
 
-## Changelog in this version
+## Changelog
 #### react-native-rss-parser-x 1.0
 > none
 
+## Features
 Parse RSS data into a simple object structure. Currently supports;
 * RSS 2.0 specification
 * Atom 1.0 specification
