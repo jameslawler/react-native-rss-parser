@@ -1,13 +1,11 @@
-# react-native-rss-parser
-> React Native compatible RSS parser
+# React-Native RSS parser X
+> A React Native compatible RSS parser
 
-[![npm version](https://badge.fury.io/js/react-native-rss-parser.svg)](https://badge.fury.io/js/react-native-rss-parser)
-[![Build Status](https://api.travis-ci.org/jameslawler/react-native-rss-parser.png?branch=master)](https://api.travis-ci.org/jameslawler/react-native-rss-parser)
-
-# This is a fork of react-native-rss-parser
+## About this project
+This is a fork of react-native-rss-parser
 > https://github.com/jameslawler/react-native-rss-parser/
 
-### Changelog in this version
+## Changelog in this version
 #### react-native-rss-parser-x 1.0
 > none
 
