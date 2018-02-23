@@ -7,7 +7,7 @@ This is a fork of react-native-rss-parser
 
 ## Changelog
 ### 1.1.0
-> (forked)
+> Forked
 
 ### 1.2.0
 > none
