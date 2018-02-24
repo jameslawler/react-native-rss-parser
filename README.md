@@ -6,6 +6,7 @@ This is a fork of react-native-rss-parser by James Lawler
 > Forked from: https://github.com/jameslawler/react-native-rss-parser/
 
 > https://github.com/ndh-dominique/react-native-rss-parser-x
+
 > https://www.npmjs.com/package/react-native-rss-parser-x
 
 
@@ -25,13 +26,13 @@ Parse RSS data into a simple object structure. Currently supports;
 ## Installation
 
 ```sh
-npm install react-native-rss-parser --save
+npm install react-native-rss-parser-x --save
 ```
 
 ## Usage example
 
 ```js
-import * as rssParser from 'react-native-rss-parser';
+import * as rssParser from 'react-native-rss-parser-x';
 
 return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
   .then((response) => response.text())
@@ -159,27 +160,6 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
 | authors       | author        | contributor   |
 | published     | pubDate       | published     |
 | enclosures    | enclosures    | link          |
-
-## Development setup
-
-Clone this project from [GitHub](https://github.com/jameslawler/react-native-rss-parser)
-
-```sh
-npm install
-npm test
-```
-
-## Bugs / feature requests
-
-If you find any bugs or have a feature request, please create an issue in [GitHub](https://github.com/jameslawler/react-native-rss-parser).
-
-## Contributing
-
-1. Fork it (<https://github.com/jameslawler/react-native-rss-parser>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 ## License
 
