@@ -89,10 +89,10 @@ function getChannelCategories(node) {
 function getChannelImage(node) {
   var img = utils.getElementTextContent(node, 'image');
   if(img == '' || img == undefined || img == null){
-    img = utils.getElementTextContent(node, 'icon');
+    img = utils.getElementTextContent(node, 'logo');
   }
   if(img == '' || img == undefined || img == null){
-    img = utils.getElementTextContent(node, 'logo');
+    img = utils.getElementTextContent(node, 'icon');
   }
 
   return {
