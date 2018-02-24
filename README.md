@@ -10,7 +10,7 @@ This is a fork of react-native-rss-parser
 > Forked
 
 ### 1.2.0
-> none
+> Fixed atom and rss bugs. Now gets all child nodes based on their respective standards. Also parses dates better.
 
 ## Features
 Parse RSS data into a simple object structure. Currently supports;

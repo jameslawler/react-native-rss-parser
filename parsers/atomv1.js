@@ -87,31 +87,21 @@ function getChannelCategories(node) {
 }
 
 function getChannelImage(node) {
+  var img = utils.getElementTextContent(node, 'image');
+  if(img == '' || img == undefined || img == null){
+    img = utils.getElementTextContent(node, 'icon');
+  }
+  if(img == '' || img == undefined || img == null){
+    img = utils.getElementTextContent(node, 'logo');
+  }
+
   return {
-    url: utils.getElementTextContent(node, 'image'),
+    url: img,
     title: undefined,
     description: undefined,
     width: undefined,
     height: undefined,
   };
-}
-
-function mapItems(document) {
-  const itemNodes = utils.getElements(document, 'entry');
-
-  return itemNodes.map(function(item) {
-    return {
-      title: getItemTitle(item),
-      links: getItemLinks(item),
-      description: getItemDescription(item),
-      content: getItemContent(item),
-      authors: getItemAuthors(item),
-      categories: getItemCategories(item),
-      published: getItemPublished(item),
-      enclosures: getItemEnclosures(item),
-      itunes: itunesParser.parseItem(item)
-    };
-  });
 }
 
 function getItemTitle(node) {
@@ -139,6 +129,10 @@ function getItemContent(node) {
   return utils.getElementTextContent(node, 'content');
 }
 
+function getItemIcon(node) {
+  return utils.getElementTextContent(node, 'icon');
+}
+
 function getItemAuthors(node) {
   const authors = utils.getChildElements(node, 'author');
 
@@ -160,7 +154,15 @@ function getItemCategories(node) {
 }
 
 function getItemPublished(node) {
-  return utils.getElementTextContent(node, 'published');
+  var pub = utils.getElementTextContent(node, 'updated');
+  if(pub == '' || pub == undefined || pub == null){
+    utils.getElementTextContent(node, 'published');
+  }
+  return pub;
+}
+
+function getItemId(node) {
+  return utils.getElementTextContent(node, 'id');
 }
 
 function getItemEnclosures(node) {
@@ -173,6 +175,26 @@ function getItemEnclosures(node) {
       url: link.getAttribute('href'),
       length: link.getAttribute('length'),
       mimeType: link.getAttribute('type')
+    };
+  });
+}
+
+function mapItems(document) {
+  const itemNodes = utils.getElements(document, 'entry');
+
+  return itemNodes.map(function(item) {
+    return {
+      title: getItemTitle(item),
+      links: getItemLinks(item),
+      description: getItemDescription(item),
+      id: getItemId(item),
+      image: getItemIcon(item),
+      content: getItemContent(item),
+      authors: getItemAuthors(item),
+      categories: getItemCategories(item),
+      published: getItemPublished(item),
+      enclosures: getItemEnclosures(item),
+      itunes: itunesParser.parseItem(item)
     };
   });
 }
