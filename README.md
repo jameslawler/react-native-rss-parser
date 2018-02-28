@@ -1,5 +1,6 @@
 # React-Native RSS parser X
 A React Native compatible RSS parser.
+
 React-Native RSS parser X is an extended version of react-native-rss-parser by James Lawler.
 
 > This repository:  https://github.com/ndh-dominique/react-native-rss-parser-x
@@ -9,6 +10,7 @@ React-Native RSS parser X is an extended version of react-native-rss-parser by J
 
 ## About this project
 This project is a fork of react-native-rss-parser by James Lawler
+
 > Forked from:      https://github.com/jameslawler/react-native-rss-parser/
 
 
