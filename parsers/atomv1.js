@@ -168,7 +168,9 @@ function getItemEnclosures(node) {
 }
 
 exports.parse = function(document) {
-  const parsedFeed = mapChannelFields(document, parsedFeed);
+  let parsedFeed = Object.assign({}, model.rss);
+
+  parsedFeed = mapChannelFields(document, parsedFeed);
   parsedFeed.type = 'atom-v1';
   parsedFeed.items = mapItems(document);
 
