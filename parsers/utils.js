@@ -21,7 +21,7 @@ exports.getChildElements = function(node, tagName, namespace) {
     return [];
   }
 
-  return Array.prototype.filter.call(elements, element => 
+  return Array.prototype.filter.call(elements, element =>
     element.parentNode.nodeName === node.nodeName);
 }
 

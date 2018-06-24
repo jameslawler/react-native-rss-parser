@@ -1,35 +1,6 @@
 var utils = require('./utils');
 var namespaces = require('./namespaces');
 
-exports.parseChannel = function(node) {
-  return {
-    authors: getAuthors(node),
-    block: getBlock(node),
-    categories: getCategories(node),
-    complete: getComplete(node),
-    explicit: getExplicit(node),
-    image: getImage(node),
-    newFeedUrl: getNewFeedUrl(node),
-    owner: getOwner(node),
-    subtitle: getSubtitle(node),
-    summary: getSummary(node)
-  }
-};
-
-exports.parseItem = function(node) {
-  return {
-    authors: getAuthors(node),
-    block: getBlock(node),
-    duration: getDuration(node),
-    explicit: getExplicit(node),
-    image: getImage(node),
-    isClosedCaptioned: getIsClosedCaptioned(node),
-    order: getOrder(node),
-    subtitle: getSubtitle(node),
-    summary: getSummary(node),
-  };
-};
-
 function getAuthors(node) {
   const authors = utils.getElementTextContentArray(node, 'author', namespaces.itunes);
 
@@ -126,3 +97,32 @@ function getSubtitle(node) {
 function getSummary(node) {
   return utils.getElementTextContent(node, 'summary', namespaces.itunes);
 }
+
+exports.parseChannel = function(node) {
+  return {
+    authors: getAuthors(node),
+    block: getBlock(node),
+    categories: getCategories(node),
+    complete: getComplete(node),
+    explicit: getExplicit(node),
+    image: getImage(node),
+    newFeedUrl: getNewFeedUrl(node),
+    owner: getOwner(node),
+    subtitle: getSubtitle(node),
+    summary: getSummary(node)
+  }
+};
+
+exports.parseItem = function(node) {
+  return {
+    authors: getAuthors(node),
+    block: getBlock(node),
+    duration: getDuration(node),
+    explicit: getExplicit(node),
+    image: getImage(node),
+    isClosedCaptioned: getIsClosedCaptioned(node),
+    order: getOrder(node),
+    subtitle: getSubtitle(node),
+    summary: getSummary(node),
+  };
+};

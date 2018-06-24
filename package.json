@@ -26,6 +26,7 @@
     "xmldom": "^0.1.27"
   },
   "devDependencies": {
+    "eslint": "^5.0.0",
     "mocha": "^5.0.0"
   }
 }

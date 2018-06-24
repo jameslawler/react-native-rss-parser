@@ -1,0 +1,9 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-trailing-spaces": "error",
+    "eol-last": "error"
+  }
+}

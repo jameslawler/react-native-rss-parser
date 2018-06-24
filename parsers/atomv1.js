@@ -2,16 +2,6 @@ var utils = require('./utils');
 var model = require('../model/rss');
 var itunesParser = require('./itunes');
 
-exports.parse = function(document) {
-  let parsedFeed = Object.assign({}, model.rss);
-  
-  parsedFeed = mapChannelFields(document, parsedFeed);
-  parsedFeed.type = 'atom-v1';
-  parsedFeed.items = mapItems(document);
-
-  return parsedFeed;
-};
-
 function mapChannelFields(document, parsedFeed) {
   const channelNodes = utils.getElements(document, 'feed');
 
@@ -176,3 +166,11 @@ function getItemEnclosures(node) {
     };
   });
 }
+
+exports.parse = function(document) {
+  const parsedFeed = mapChannelFields(document, parsedFeed);
+  parsedFeed.type = 'atom-v1';
+  parsedFeed.items = mapItems(document);
+
+  return parsedFeed;
+};
