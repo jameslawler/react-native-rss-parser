@@ -88,10 +88,12 @@ function getChannelCategories(node) {
 
 function getChannelImage(node) {
   var img = utils.getElementTextContent(node, 'image');
-  if(img == '' || img == undefined || img == null){
+
+  if(img === '' || img === undefined){
     img = utils.getElementTextContent(node, 'logo');
   }
-  if(img == '' || img == undefined || img == null){
+
+  if(img === '' || img === undefined){
     img = utils.getElementTextContent(node, 'icon');
   }
 
@@ -129,7 +131,7 @@ function getItemContent(node) {
   return utils.getElementTextContent(node, 'content');
 }
 
-function getItemIcon(node) {
+function getItemImage(node) {
   return utils.getElementTextContent(node, 'icon');
 }
 
@@ -155,9 +157,11 @@ function getItemCategories(node) {
 
 function getItemPublished(node) {
   var pub = utils.getElementTextContent(node, 'updated');
-  if(pub == '' || pub == undefined || pub == null){
+
+  if(pub === '' || pub === undefined){
     utils.getElementTextContent(node, 'published');
   }
+
   return pub;
 }
 
@@ -188,7 +192,7 @@ function mapItems(document) {
       links: getItemLinks(item),
       description: getItemDescription(item),
       id: getItemId(item),
-      image: getItemIcon(item),
+      imageUrl: getItemImage(item),
       content: getItemContent(item),
       authors: getItemAuthors(item),
       categories: getItemCategories(item),

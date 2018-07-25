@@ -27,6 +27,7 @@ describe('when rss parse', function() {
           assert.equal(result.authors.length, 1);
           assert.equal(result.authors[0].name, 'dave@userland.com');
           assert.equal(result.items.length, 9);
+          assert.equal(result.items[0].id, 'http://scriptingnews.userland.com/backissues/2002/09/29#When:6:56:02PM');
           assert.equal(result.items[0].published, 'Mon, 30 Sep 2002 01:56:02 GMT');
           assert.equal(result.items[0].enclosures.length, 1);
           assert.equal(result.items[0].enclosures[0].url, 'http://www.scripting.com/mp3s/weatherReportSuite.mp3');

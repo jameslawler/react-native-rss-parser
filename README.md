@@ -80,7 +80,9 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
     summary: undefined,       // summary of the channel
   },
   items: [{                   // list of items in the feed
+    id: undefined,            // item id
     title: undefined,         // item title
+    imageUrl: undefined,      // item image url
     links: [{
       url: undefined,         // item link url
       rel: undefined          // type of item link
@@ -138,7 +140,9 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
 
 | Parsed Value  | RSS v2.0      | Atom v1.0     |
 | ------------- | ------------- | ------------- |
+| id            | guid          | id            |
 | title         | title         | title         |
+| imageUrl      |               | icon          |
 | links         | link          | link          |
 | description   | description   | summary       |
 | content       |               | content       |

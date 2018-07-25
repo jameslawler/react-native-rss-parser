@@ -2,7 +2,8 @@ exports.feed = `
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>ATOM title</title>
-	<subtitle>A sample ATOM feed</subtitle>
+  <subtitle>A sample ATOM feed</subtitle>
+  <logo>https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8M.png</logo>
   <generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator>
   <link href="http://bakery-store.example.com/" rel="alternate" type="text/html" />
   <updated>2016-05-13T16:22:08+12:00</updated>
@@ -14,6 +15,7 @@ exports.feed = `
     <published>2016-01-02T00:00:00+13:00</published>
     <updated>2016-01-02T00:00:00+13:00</updated>
     <id>http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from</id>
+    <icon>https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8.png</icon>
     <content type="html" xml:base="http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from.html">&lt;p&gt;The chocolate chip cookie was invented by Ruth Graves Wakefield. She owned the Toll House Inn, in Whitman, Massachusetts, a very popular restaurant that featured home cooking in the 1930s. Her cookbook, Toll House Tried and True Recipes, was first published in 1936 by M. Barrows &amp;amp; Company, New York. The 1938 edition of the cookbook was the first to include the recipe “Toll House Chocolate Crunch Cookie” which rapidly became a favorite cookie in American homes.&lt;/p&gt;
 
 &lt;p&gt;Source / Read more &lt;a href=&quot;https://en.wikipedia.org/wiki/Chocolate_chip_cookie&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;

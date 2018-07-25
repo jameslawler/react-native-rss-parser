@@ -13,7 +13,10 @@ describe('when parse ATOM', function() {
           assert.equal(result.links[0].url, 'http://bakery-store.example.com/');
           assert.equal(result.description, 'A sample ATOM feed');
           assert.equal(result.items.length, 2);
+          assert.equal(result.image.url, 'https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8M.png');
           assert.equal(result.items[0].title, 'Where Did The Cookie Come From');
+          assert.equal(result.items[0].id, 'http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from');
+          assert.equal(result.items[0].imageUrl, 'https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8.png');
           assert.equal(result.items[0].links.length, 1);
           assert.equal(result.items[0].links[0].url, 'http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from.html');
           assert.equal(result.items[0].links[0].rel, 'alternate');

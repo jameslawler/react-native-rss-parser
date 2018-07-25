@@ -54,7 +54,7 @@ model.rss = {
       rel: undefined
     }],
     id: undefined,
-    image: undefined,
+    imageUrl: undefined,
     description: undefined,
     content: undefined,
     categories: [{
