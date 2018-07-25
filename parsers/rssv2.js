@@ -115,23 +115,6 @@ function getChannelImage(node) {
   };
 }
 
-function mapItems(document) {
-  const itemNodes = utils.getElements(document, 'item');
-
-  return itemNodes.map(function(item) {
-    return {
-      title: getItemTitle(item),
-      links: getItemLinks(item),
-      description: getItemDescription(item),
-      authors: getItemAuthors(item),
-      categories: getItemCategories(item),
-      published: getItemPublished(item),
-      enclosures: getItemEnclosures(item),
-      itunes: itunesParser.parseItem(item)
-    };
-  });
-}
-
 function getItemTitle(node) {
   return utils.getElementTextContent(node, 'title');
 }
@@ -171,6 +154,10 @@ function getItemCategories(node) {
   });
 }
 
+function getItemId(node) {
+  return utils.getElementTextContent(node, 'guid');
+}
+
 function getItemPublished(node) {
   return utils.getElementTextContent(node, 'pubDate');
 }
@@ -184,5 +171,23 @@ function getItemEnclosures(node) {
       length: enclosure.getAttribute('length'),
       mimeType: enclosure.getAttribute('type')
     }
+  });
+}
+
+function mapItems(document) {
+  const itemNodes = utils.getElements(document, 'item');
+
+  return itemNodes.map(function(item) {
+    return {
+      title: getItemTitle(item),
+      links: getItemLinks(item),
+      description: getItemDescription(item),
+      id: getItemId(item),
+      authors: getItemAuthors(item),
+      categories: getItemCategories(item),
+      published: getItemPublished(item),
+      enclosures: getItemEnclosures(item),
+      itunes: itunesParser.parseItem(item)
+    };
   });
 }
