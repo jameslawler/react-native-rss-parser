@@ -81,11 +81,13 @@ describe('when parse ATOM', function() {
   });
 
   describe('with images in summary/content', function() {
-    it('should return itunes information for channel and item elements', function() {
+    it('should return images from content', function() {
       return rssParser.parse(atomv1WithImages.feed)
         .then((result) => {
           assert.equal(result.items[0].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
           assert.equal(result.items[1].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
+          assert.equal(result.items[2].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
+          assert.equal(result.items[3].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
         });
     });
   });
