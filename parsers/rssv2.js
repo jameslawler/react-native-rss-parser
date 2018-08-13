@@ -1,6 +1,7 @@
 var utils = require('./utils');
 var model = require('../model/rss');
 var itunesParser = require('./itunes');
+var imageParser = require('./images')
 
 exports.parse = function(document) {
   let parsedFeed = Object.assign({}, model.rss);
@@ -131,7 +132,8 @@ function getItemLinks(node) {
 }
 
 function getItemDescription(node) {
-  return utils.getElementTextContent(node, 'description');
+  var content =  utils.getElementTextContent(node, 'description');
+  return content.replace(/<[^>]+>/g, '');
 }
 
 function getItemAuthors(node) {
@@ -187,7 +189,8 @@ function mapItems(document) {
       categories: getItemCategories(item),
       published: getItemPublished(item),
       enclosures: getItemEnclosures(item),
-      itunes: itunesParser.parseItem(item)
+      itunes: itunesParser.parseItem(item),
+      imageUrl: imageParser.parseImage(item),
     };
   });
 }

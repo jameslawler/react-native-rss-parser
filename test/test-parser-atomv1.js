@@ -1,6 +1,7 @@
 var assert = require('assert');
 var atomv1 = require('./samples/atomv1');
 var atomv1WithItunes = require('./samples/atomv1-with-itunes');
+var atomv1WithImages = require('./samples/atomv1-with-images');
 var rssParser = require('../index');
 
 describe('when parse ATOM', function() {
@@ -75,6 +76,16 @@ describe('when parse ATOM', function() {
           assert.equal(result.items[1].itunes.subtitle, 'Comparing socket wrenches is fun!');
           assert.equal(result.items[0].itunes.summary, `This week we talk about <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!`);
           assert.equal(result.items[1].itunes.summary, 'This week we talk about metric vs. Old English socket wrenches. Which one is better? Do you really need both? Get all of your answers here.');
+        });
+    });
+  });
+
+  describe('with images in summary/content', function() {
+    it('should return itunes information for channel and item elements', function() {
+      return rssParser.parse(atomv1WithImages.feed)
+        .then((result) => {
+          assert.equal(result.items[0].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
+          assert.equal(result.items[1].imageUrl, "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg");
         });
     });
   });
