@@ -1,6 +1,7 @@
 var utils = require('./utils');
 var model = require('../model/rss');
 var itunesParser = require('./itunes');
+var imageParser = require('./images')
 
 exports.parse = function(document) {
   let parsedFeed = Object.assign({}, model.rss);
@@ -132,7 +133,7 @@ function getItemContent(node) {
 }
 
 function getItemImage(node) {
-  return utils.getElementTextContent(node, 'icon');
+  return utils.getElementTextContent(node, 'icon') || imageParser.parseImage(node);
 }
 
 function getItemAuthors(node) {
