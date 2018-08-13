@@ -133,8 +133,7 @@ function getItemContent(node) {
 }
 
 function getItemImage(node) {
-  var imageResult = imageParser.parseImage(node);
-  return utils.getElementTextContent(node, 'icon') || imageResult;
+  return utils.getElementTextContent(node, 'icon') || imageParser.parseImage(node);
 }
 
 function getItemAuthors(node) {

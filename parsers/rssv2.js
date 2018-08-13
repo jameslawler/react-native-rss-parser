@@ -132,8 +132,7 @@ function getItemLinks(node) {
 }
 
 function getItemDescription(node) {
-  var content =  utils.getElementTextContent(node, 'description');
-  return content.replace(/<[^>]+>/g, '');
+  return utils.getElementTextContent(node, 'description').replace(/<[^>]+>/g, '');
 }
 
 function getItemAuthors(node) {
