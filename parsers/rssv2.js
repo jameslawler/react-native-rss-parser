@@ -1,5 +1,6 @@
 var utils = require('./utils');
 var model = require('../model/rss');
+var namespaces = require('./namespaces');
 var itunesParser = require('./itunes');
 
 exports.parse = function(document) {
@@ -134,6 +135,10 @@ function getItemDescription(node) {
   return utils.getElementTextContent(node, 'description');
 }
 
+function getItemContent(node) {
+  return utils.getElementTextContent(node, 'encoded', namespaces.content);
+}
+
 function getItemAuthors(node) {
   const authors = utils.getElementTextContentArray(node, 'author');
 
@@ -182,6 +187,7 @@ function mapItems(document) {
       title: getItemTitle(item),
       links: getItemLinks(item),
       description: getItemDescription(item),
+      content: getItemContent(item),
       id: getItemId(item),
       authors: getItemAuthors(item),
       categories: getItemCategories(item),

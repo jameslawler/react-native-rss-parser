@@ -4,6 +4,7 @@ var rssv2InvalidFormat = require('./samples/rssv2-invalid-format');
 var rssv2MultipleCategories = require('./samples/rssv2-multiple-categories');
 var rssv2InvalidNoChannel = require('./samples/rssv2-invalid-no-channel');
 var rssv2WithItunes = require('./samples/rssv2-with-itunes');
+var rssv2WithContent = require('./samples/rssv2-with-content');
 var rssParser = require('../index');
 
 describe('when rss parse', function() {
@@ -33,6 +34,7 @@ describe('when rss parse', function() {
           assert.equal(result.items[0].enclosures[0].url, 'http://www.scripting.com/mp3s/weatherReportSuite.mp3');
           assert.equal(result.items[0].enclosures[0].length, '12216320');
           assert.equal(result.items[0].enclosures[0].mimeType, 'audio/mpeg');
+          assert.equal(result.items[0].content, undefined);
           assert.equal(result.items[1].published, 'Sun, 29 Sep 2002 19:59:01 GMT');
         });
     });
@@ -98,6 +100,16 @@ describe('when rss parse', function() {
           assert.equal(result.items[1].itunes.subtitle, 'Comparing socket wrenches is fun!');
           assert.equal(result.items[0].itunes.summary, `This week we talk about <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!`);
           assert.equal(result.items[1].itunes.summary, 'This week we talk about metric vs. Old English socket wrenches. Which one is better? Do you really need both? Get all of your answers here.');
+        });
+    });
+  });
+
+  describe('with content:encoded elements', function() {
+    it('should return content information for item elements', function() {
+      return rssParser.parse(rssv2WithContent.feed)
+        .then((result) => {
+          assert.equal(result.items[0].content, 'This is test item 1');
+          assert.equal(result.items[1].content, 'This is test item 2');
         });
     });
   });
