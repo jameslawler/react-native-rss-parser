@@ -15,7 +15,7 @@ exports.parse = function(feed) {
     if (!parser) {
       reject('Unable to find any RSS element in feed');
     }
-    
+
     let parsedFeed = parser.parse(document);
 
     resolve(parsedFeed);

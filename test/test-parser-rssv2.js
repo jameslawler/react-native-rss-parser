@@ -5,6 +5,7 @@ var rssv2MultipleCategories = require('./samples/rssv2-multiple-categories');
 var rssv2InvalidNoChannel = require('./samples/rssv2-invalid-no-channel');
 var rssv2WithItunes = require('./samples/rssv2-with-itunes');
 var rssv2WithContent = require('./samples/rssv2-with-content');
+var rssv2WithDc = require('./samples/rssv2-with-dc');
 var rssParser = require('../index');
 
 describe('when rss parse', function() {
@@ -134,6 +135,17 @@ describe('when rss parse', function() {
         })
         .catch((error) => {
           assert.equal(error, 'Unable to find any RSS element in feed');
+        });
+    });
+  });
+
+  describe('with dc:* elements', function() {
+    it('should return information for dublin core', function() {
+      return rssParser.parse(rssv2WithDc.feed)
+        .then((result) => {
+          assert.equal(result.items[0].published, 'Sun, 29 Sep 2002 17:05:20 GMT');
+          assert.equal(result.items[0].categories[0].name, 'channel-category');
+          assert.equal(result.items[0].authors[0].name, 'dave@userland.com');
         });
     });
   });
