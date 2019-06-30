@@ -140,7 +140,11 @@ function getItemContent(node) {
 }
 
 function getItemAuthors(node) {
-  const authors = utils.getElementTextContentArray(node, 'author');
+  let authors = utils.getElementTextContentArray(node, 'author');
+
+  if (authors.length === 0) {
+    authors = utils.getElementTextContentArray(node, 'dc:creator');
+  }
 
   return authors.map(function(author) {
     return {
@@ -150,7 +154,11 @@ function getItemAuthors(node) {
 }
 
 function getItemCategories(node) {
-  const categories = utils.getElementTextContentArray(node, 'category');
+  let categories = utils.getElementTextContentArray(node, 'category');
+
+  if (categories.length === 0) {
+    categories = utils.getElementTextContentArray(node, 'dc:subject');
+  }
 
   return categories.map(function(category) {
     return {
@@ -164,7 +172,7 @@ function getItemId(node) {
 }
 
 function getItemPublished(node) {
-  return utils.getElementTextContent(node, 'pubDate');
+  return utils.getElementTextContent(node, 'pubDate') || utils.getElementTextContent(node, 'dc:date');
 }
 
 function getItemEnclosures(node) {

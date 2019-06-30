@@ -138,18 +138,18 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
 
 ### Item / Entry Level elements
 
-| Parsed Value  | RSS v2.0        | Atom v1.0     |
-| ------------- | --------------- | ------------- |
-| id            | guid            | id            |
-| title         | title           | title         |
-| imageUrl      |                 | icon          |
-| links         | link            | link          |
-| description   | description     | summary       |
-| content       | content:encoded | content       |
-| categories    | category        | category      |
-| authors       | author          | contributor   |
-| published     | pubDate         | published     |
-| enclosures    | enclosures      | link          |
+| Parsed Value  | RSS v2.0             | Atom v1.0     |
+| ------------- | ---------------      | ------------- |
+| id            | guid                 | id            |
+| title         | title                | title         |
+| imageUrl      |                      | icon          |
+| links         | link                 | link          |
+| description   | description          | summary       |
+| content       | content:encoded      | content       |
+| categories    | category / dc:subject| category      |
+| authors       | author / dc:creator  | contributor   |
+| published     | pubDate / dc:date    | published     |
+| enclosures    | enclosures           | link          |
 
 ## Development setup
 
