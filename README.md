@@ -28,6 +28,19 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
     console.log(rss.items.length);
   });
 ```
+## Pagination example
+```js
+import * as rssParser from 'react-native-rss-parser';
+
+return fetch(`http://www.nasa.gov/rss/dyn/breaking_news.rss?page=${this.state.page}`)
+  .then((response) => response.text())
+  .then((responseData) => rssParser.parse(responseData))
+   .then((rss) => {
+     this.setState(state => ({
+       data: [...state.data, ...rss.items]
+     }));
+   });
+```
 
 ## Parsed model
 
