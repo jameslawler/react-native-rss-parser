@@ -159,7 +159,7 @@ function getItemPublished(node) {
   var pub = utils.getElementTextContent(node, 'updated');
 
   if(pub === '' || pub === undefined){
-    utils.getElementTextContent(node, 'published');
+    pub = utils.getElementTextContent(node, 'published');
   }
 
   return pub;
