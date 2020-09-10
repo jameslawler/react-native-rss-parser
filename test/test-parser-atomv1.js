@@ -1,6 +1,7 @@
 var assert = require('assert');
 var atomv1 = require('./samples/atomv1');
 var atomv1WithItunes = require('./samples/atomv1-with-itunes');
+var atomv1NoUpdated = require('./samples/atomv1-no-updated');
 var huffpost = require('./samples/huffpost');
 var rssParser = require('../index');
 
@@ -27,6 +28,7 @@ describe('when parse ATOM', function() {
           assert.equal(result.items[0].enclosures[0].length, '1234');
           assert.equal(result.items[0].description, 'The chocolate chip cookie was invented by Ruth Graves Wakefield.');
           assert.equal(result.items[1].title, 'What Is Sour Dough');
+          assert.equal(result.items[0].published, '2016-01-02T00:00:00+13:00');
         });
     });
   });
@@ -85,6 +87,15 @@ describe('when parse ATOM', function() {
       return rssParser.parse(huffpost.feed)
         .then((result) => {
           assert.notEqual(result, undefined);
+        });
+    });
+  });
+
+  describe('when item has no updated element', function() {
+    it('should return published element', function() {
+      return rssParser.parse(atomv1NoUpdated.feed)
+        .then((result) => {
+          assert.equal(result.items[0].published, '2016-01-02T00:00:00+13:00');
         });
     });
   });
