@@ -1,0 +1,1276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when rss parse multiple categories should return correct arrays when multiple groups with the same key 1`] = `
+Object {
+  "authors": Array [
+    Object {
+      "name": "dave@userland.com",
+    },
+  ],
+  "categories": Array [
+    Object {
+      "name": "channel-category-1",
+    },
+    Object {
+      "name": "channel-category-2",
+    },
+  ],
+  "copyright": "Copyright 1997-2002 Dave Winer",
+  "description": "A weblog about scripting and stuff like that.",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": undefined,
+    "url": undefined,
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "\\"rssflowersalignright\\"With any luck we should have one or two more days of namespaces stuff here on Scripting News. It feels like it's winding down. Later in the week I'm going to a <a href=\\"http://harvardbusinessonline.hbsp.harvard.edu/b02/en/conferences/conf_detail.jhtml?id=s775stg&pid=144XCF\\">conference</a> put on by the Harvard Business School. So that should change the topic a bit. The following week I'm off to Colorado for the <a href=\\"http://www.digitalidworld.com/conference/2002/index.php\\">Digital ID World</a> conference. We had to go through namespaces, and it turns out that weblogs are a great way to work around mail lists that are clogged with <a href=\\"http://www.userland.com/whatIsStopEnergy\\">stop energy</a>. I think we solved the problem, have reached a consensus, and will be ready to move forward shortly.",
+      "enclosures": Array [
+        Object {
+          "length": "12216320",
+          "mimeType": "audio/mpeg",
+          "url": "http://www.scripting.com/mp3s/weatherReportSuite.mp3",
+        },
+      ],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:56:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Mon, 30 Sep 2002 01:56:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [
+        Object {
+          "name": "item-category-1",
+        },
+        Object {
+          "name": "item-category-2",
+        },
+      ],
+      "content": undefined,
+      "description": "Joshua Allen: <a href=\\"http://www.netcrucible.com/blog/2002/09/29.html#a243\\">Who loves namespaces?</a>",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:59:01PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 19:59:01 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://www.docuverse.com/blog/donpark/2002/09/29.html#a68\\">Don Park</a>: \\"It is too easy for engineer to anticipate too much and XML Namespace is a frequent host of over-anticipation.\\"",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:52:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Mon, 30 Sep 2002 01:52:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://scriptingnews.userland.com/stories/storyReader$1768\\">Three Sunday Morning Options</a>. \\"I just got off the phone with Tim Bray, who graciously returned my call on a Sunday morning while he was making breakfast for his kids.\\" We talked about three options for namespaces in RSS 2.0, and I think I now have the tradeoffs well outlined, and ready for other developers to review. If there is now a consensus, I think we can easily move forward. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:10:05:20AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://blog.mediacooperative.com/mt-comments.cgi?entry_id=1435\\">Mark Pilgrim</a> weighs in behind option 1 on a Ben Hammersley thread. On the RSS2-Support list, Phil Ringnalda lists a set of <a href=\\"http://groups.yahoo.com/group/RSS2-Support/message/54\\">proposals</a>, the first is equivalent to option 1. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:09:28PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://effbot.org/zone/effnews-4.htm\\">Fredrik Lundh breaks</a> through, following Simon Fell's lead, now his Python aggregator works with Scripting News <a href=\\"http://www.scripting.com/rss.xml\\">in</a> RSS 2.0. BTW, the spec is imperfect in regards to namespaces. We anticipated a 2.0.1 and 2.0.2 in the Roadmap for exactly this purpose. Thanks for your help, as usual, Fredrik. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:8:01:02AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p><a href=\\"http://www.nbc.com/Law_&_Order/index.html\\"><img src=\\"http://radio.weblogs.com/0001015/images/2002/09/29/lenny.gif\\" width=\\"45\\" height=\\"53\\" border=\\"0\\" align=\\"right\\" hspace=\\"15\\" vspace=\\"5\\" alt=\\"A picture named lenny.gif\\"></a>A great line in a recent Law and Order. Lenny Briscoe, played by Jerry Orbach, is interrogating a suspect. The suspect tells a story and reaches a point where no one believes him, not even the suspect himself. Lenny says: \\"Now there's five minutes of my life that's lost forever.\\" </p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "title": "Law and Order",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p>In the discussions over namespaces in RSS 2.0, one thing I hear a lot of, that is just plain wrong, is that when you move up by a major version number, breakage is expected and is okay. In the world I come from it is, emphatically, <i>not okay.</i> We spend huge resources to make sure that files, scripts and apps built in version N work in version N+1 without modification. Even the smallest change in the core engine can break apps. It's just not acceptable. When we make changes we have to be sure there's no breakage. I don't know where these other people come from, or if they make software that anyone uses, but the users I know don't stand for that. As we expose the tradeoffs it becomes clear that <i>that's the issue here.</i> We are not in Year Zero. There are users. Breaking them is not an option. A conclusion to lift the confusion: Version 0.91 and 0.92 files are valid 2.0 files. This is where we started, what seems like years ago.</p>
+				<p>BTW, you can ask anyone who's worked for me in a technical job to explain rules 1 and 1b. (I'll clue you in. Rule 1 is \\"No Breakage\\" and Rule 1b is \\"Don't Break Dave.\\")</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "title": "Rule 1",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p>One of the lessons I've learned in 47.4 years: When someone accuses you of a <a href=\\"http://www.dictionary.com/search?q=deceit\\">deceit</a>, there's a very good chance the accuser practices that form of deceit, and a reasonable chance that he or she is doing it as they point the finger. </p>
+				<p><a href=\\"http://www.docuverse.com/blog/donpark/2002/09/28.html#a66\\">Don Park</a>: \\"He poured a barrel full of pig urine all over the Korean Congress because he was pissed off about all the dirty politics going on.\\"</p>
+				<p><a href=\\"http://davenet.userland.com/1995/01/04/demoingsoftwareforfunprofi\\">1/4/95</a>: \\"By the way, the person with the big problem is probably a competitor.\\"</p>
+				<p>I've had a fair amount of experience in the last few years with what you might call standards work. XML-RPC, SOAP, RSS, OPML. Each has been different from the others. In all this work, the most positive experience was XML-RPC, and not just because of the technical excellence of the people involved. In the end, what matters more to me is <a href=\\"http://www.dictionary.com/search?q=collegiality\\">collegiality</a>. Working together, person to person, for the sheer pleasure of it, is even more satisfying than a good technical result. Now, getting both is the best, and while XML-RPC is not perfect, it's pretty good. I also believe that if you have collegiality, technical excellence follows as a natural outcome.</p>
+				<p>One more bit of philosophy. At my checkup earlier this week, one of the things my cardiologist asked was if I was experiencing any kind of intellectual dysfunction. In other words, did I lose any of my sharpness as a result of the surgery in June. I told him yes I had and thanked him for asking. In an amazing bit of synchronicity, the next day John Robb <a href=\\"http://jrobb.userland.com/2002/09/25.html#a2598\\">located</a> an article in New Scientist that said that scientists had found a way to prevent this from happening. I hadn't talked with John about my experience or the question the doctor asked. Yesterday I was telling the story to my friend Dave Jacobs. He said it's not a problem because I always had excess capacity in that area. Exactly right Big Dave and thanks for the vote of confidence.</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "title": "Really early morning no-coffee notes",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": "en-us",
+  "lastPublished": undefined,
+  "lastUpdated": "Mon, 30 Sep 2002 11:00:00 GMT",
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "http://www.scripting.com/",
+    },
+  ],
+  "title": "Scripting News",
+  "type": "rss-v2",
+}
+`;
+
+exports[`when rss parse valid document should return rss items 1`] = `
+Object {
+  "authors": Array [
+    Object {
+      "name": "dave@userland.com",
+    },
+  ],
+  "categories": Array [
+    Object {
+      "name": "1765",
+    },
+  ],
+  "copyright": "Copyright 1997-2002 Dave Winer",
+  "description": "A weblog about scripting and stuff like that.",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": "test image",
+    "url": "http://www.example.com/image.jpg",
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "\\"rssflowersalignright\\"With any luck we should have one or two more days of namespaces stuff here on Scripting News. It feels like it's winding down. Later in the week I'm going to a <a href=\\"http://harvardbusinessonline.hbsp.harvard.edu/b02/en/conferences/conf_detail.jhtml?id=s775stg&pid=144XCF\\">conference</a> put on by the Harvard Business School. So that should change the topic a bit. The following week I'm off to Colorado for the <a href=\\"http://www.digitalidworld.com/conference/2002/index.php\\">Digital ID World</a> conference. We had to go through namespaces, and it turns out that weblogs are a great way to work around mail lists that are clogged with <a href=\\"http://www.userland.com/whatIsStopEnergy\\">stop energy</a>. I think we solved the problem, have reached a consensus, and will be ready to move forward shortly.",
+      "enclosures": Array [
+        Object {
+          "length": "12216320",
+          "mimeType": "audio/mpeg",
+          "url": "http://www.scripting.com/mp3s/weatherReportSuite.mp3",
+        },
+      ],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:56:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Mon, 30 Sep 2002 01:56:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "Joshua Allen: <a href=\\"http://www.netcrucible.com/blog/2002/09/29.html#a243\\">Who loves namespaces?</a>",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:59:01PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 19:59:01 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://www.docuverse.com/blog/donpark/2002/09/29.html#a68\\">Don Park</a>: \\"It is too easy for engineer to anticipate too much and XML Namespace is a frequent host of over-anticipation.\\"",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:52:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Mon, 30 Sep 2002 01:52:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://scriptingnews.userland.com/stories/storyReader$1768\\">Three Sunday Morning Options</a>. \\"I just got off the phone with Tim Bray, who graciously returned my call on a Sunday morning while he was making breakfast for his kids.\\" We talked about three options for namespaces in RSS 2.0, and I think I now have the tradeoffs well outlined, and ready for other developers to review. If there is now a consensus, I think we can easily move forward. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:10:05:20AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://blog.mediacooperative.com/mt-comments.cgi?entry_id=1435\\">Mark Pilgrim</a> weighs in behind option 1 on a Ben Hammersley thread. On the RSS2-Support list, Phil Ringnalda lists a set of <a href=\\"http://groups.yahoo.com/group/RSS2-Support/message/54\\">proposals</a>, the first is equivalent to option 1. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:09:28PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "<a href=\\"http://effbot.org/zone/effnews-4.htm\\">Fredrik Lundh breaks</a> through, following Simon Fell's lead, now his Python aggregator works with Scripting News <a href=\\"http://www.scripting.com/rss.xml\\">in</a> RSS 2.0. BTW, the spec is imperfect in regards to namespaces. We anticipated a 2.0.1 and 2.0.2 in the Roadmap for exactly this purpose. Thanks for your help, as usual, Fredrik. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:8:01:02AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p><a href=\\"http://www.nbc.com/Law_&_Order/index.html\\"><img src=\\"http://radio.weblogs.com/0001015/images/2002/09/29/lenny.gif\\" width=\\"45\\" height=\\"53\\" border=\\"0\\" align=\\"right\\" hspace=\\"15\\" vspace=\\"5\\" alt=\\"A picture named lenny.gif\\"></a>A great line in a recent Law and Order. Lenny Briscoe, played by Jerry Orbach, is interrogating a suspect. The suspect tells a story and reaches a point where no one believes him, not even the suspect himself. Lenny says: \\"Now there's five minutes of my life that's lost forever.\\" </p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "title": "Law and Order",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p>In the discussions over namespaces in RSS 2.0, one thing I hear a lot of, that is just plain wrong, is that when you move up by a major version number, breakage is expected and is okay. In the world I come from it is, emphatically, <i>not okay.</i> We spend huge resources to make sure that files, scripts and apps built in version N work in version N+1 without modification. Even the smallest change in the core engine can break apps. It's just not acceptable. When we make changes we have to be sure there's no breakage. I don't know where these other people come from, or if they make software that anyone uses, but the users I know don't stand for that. As we expose the tradeoffs it becomes clear that <i>that's the issue here.</i> We are not in Year Zero. There are users. Breaking them is not an option. A conclusion to lift the confusion: Version 0.91 and 0.92 files are valid 2.0 files. This is where we started, what seems like years ago.</p>
+				<p>BTW, you can ask anyone who's worked for me in a technical job to explain rules 1 and 1b. (I'll clue you in. Rule 1 is \\"No Breakage\\" and Rule 1b is \\"Don't Break Dave.\\")</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "title": "Rule 1",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+				<p>One of the lessons I've learned in 47.4 years: When someone accuses you of a <a href=\\"http://www.dictionary.com/search?q=deceit\\">deceit</a>, there's a very good chance the accuser practices that form of deceit, and a reasonable chance that he or she is doing it as they point the finger. </p>
+				<p><a href=\\"http://www.docuverse.com/blog/donpark/2002/09/28.html#a66\\">Don Park</a>: \\"He poured a barrel full of pig urine all over the Korean Congress because he was pissed off about all the dirty politics going on.\\"</p>
+				<p><a href=\\"http://davenet.userland.com/1995/01/04/demoingsoftwareforfunprofi\\">1/4/95</a>: \\"By the way, the person with the big problem is probably a competitor.\\"</p>
+				<p>I've had a fair amount of experience in the last few years with what you might call standards work. XML-RPC, SOAP, RSS, OPML. Each has been different from the others. In all this work, the most positive experience was XML-RPC, and not just because of the technical excellence of the people involved. In the end, what matters more to me is <a href=\\"http://www.dictionary.com/search?q=collegiality\\">collegiality</a>. Working together, person to person, for the sheer pleasure of it, is even more satisfying than a good technical result. Now, getting both is the best, and while XML-RPC is not perfect, it's pretty good. I also believe that if you have collegiality, technical excellence follows as a natural outcome.</p>
+				<p>One more bit of philosophy. At my checkup earlier this week, one of the things my cardiologist asked was if I was experiencing any kind of intellectual dysfunction. In other words, did I lose any of my sharpness as a result of the surgery in June. I told him yes I had and thanked him for asking. In an amazing bit of synchronicity, the next day John Robb <a href=\\"http://jrobb.userland.com/2002/09/25.html#a2598\\">located</a> an article in New Scientist that said that scientists had found a way to prevent this from happening. I hadn't talked with John about my experience or the question the doctor asked. Yesterday I was telling the story to my friend Dave Jacobs. He said it's not a problem because I always had excess capacity in that area. Exactly right Big Dave and thanks for the vote of confidence.</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "title": "Really early morning no-coffee notes",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": "en-us",
+  "lastPublished": undefined,
+  "lastUpdated": "Mon, 30 Sep 2002 11:00:00 GMT",
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "http://www.scripting.com/",
+    },
+    Object {
+      "rel": "",
+      "url": "http://www.scripting2.com/",
+    },
+  ],
+  "title": "Scripting News",
+  "type": "rss-v2",
+}
+`;
+
+exports[`when rss parse with content:encoded elements should return content information for item elements 1`] = `
+Object {
+  "authors": Array [],
+  "categories": Array [],
+  "copyright": undefined,
+  "description": "The latest news on WordPress.com and the WordPress community.",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": "The WordPress.com Blog",
+    "url": "https://secure.gravatar.com/blavatar/e6392390e3bcfadff3671c5a5653d95b?s=96&d=https%3A%2F%2Fs0.wp.com%2Fi%2Fbuttonw-com.png",
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [
+        Object {
+          "name": "Greg Ichneumon Brown",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "Customization",
+        },
+        Object {
+          "name": "Jetpack",
+        },
+        Object {
+          "name": "New Features",
+        },
+        Object {
+          "name": "search",
+        },
+        Object {
+          "name": "WordPress.com",
+        },
+        Object {
+          "name": "algorithm",
+        },
+        Object {
+          "name": "Jetpack Search",
+        },
+      ],
+      "content": "This is test item 1",
+      "description": "The WordPress.com Business plan combines fully managed hosting with the freedom to grow and scale your site without limits. Today we&#8217;re adding Jetpack Search to WordPress.com Business so you can enjoy powerful and fast on-site search functionality as part of your plan. &#160; Once you activate Jetpack Search, you&#8217;ll be &#8230;",
+      "enclosures": Array [],
+      "id": "http://en.blog.wordpress.com/?p=40675",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "https://en.blog.wordpress.com/2018/08/31/new-in-the-wordpress-com-business-plan-jetpack-search/",
+        },
+      ],
+      "published": "Fri, 31 Aug 2018 17:24:06 +0000",
+      "title": "New in the WordPress.com Business Plan: Jetpack Search",
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "Rodrigo",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "New Features",
+        },
+        Object {
+          "name": "Widgets",
+        },
+        Object {
+          "name": "WordPress.com",
+        },
+        Object {
+          "name": "Simple Payment",
+        },
+      ],
+      "content": "This is test item 2",
+      "description": "Take payments anywhere on your site.",
+      "enclosures": Array [],
+      "id": "http://en.blog.wordpress.com/?p=40644",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "https://en.blog.wordpress.com/2018/08/14/introducing-the-simple-payment-widget/",
+        },
+      ],
+      "published": "Tue, 14 Aug 2018 12:00:27 +0000",
+      "title": "Introducing the Simple Payment Widget",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": "en",
+  "lastPublished": undefined,
+  "lastUpdated": "
+	Fri, 07 Sep 2018 19:30:56 +0000	",
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "https://en.blog.wordpress.com",
+    },
+  ],
+  "title": "The WordPress.com Blog",
+  "type": "rss-v2",
+}
+`;
+
+exports[`when rss parse with dc:* elements should return information for dublin core 1`] = `
+Object {
+  "authors": Array [
+    Object {
+      "name": "dave@userland.com",
+    },
+  ],
+  "categories": Array [
+    Object {
+      "name": "1765",
+    },
+  ],
+  "copyright": "Copyright 1997-2002 Dave Winer",
+  "description": "A weblog about scripting and stuff like that.",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": "test image",
+    "url": "http://www.example.com/image.jpg",
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "\\"rssflowersalignright\\"With any luck we should have one or two more days of namespaces stuff here on Scripting News. It feels like it's winding down. Later in the week I'm going to a <a href=\\"http://harvardbusinessonline.hbsp.harvard.edu/b02/en/conferences/conf_detail.jhtml?id=s775stg&pid=144XCF\\">conference</a> put on by the Harvard Business School. So that should change the topic a bit. The following week I'm off to Colorado for the <a href=\\"http://www.digitalidworld.com/conference/2002/index.php\\">Digital ID World</a> conference. We had to go through namespaces, and it turns out that weblogs are a great way to work around mail lists that are clogged with <a href=\\"http://www.userland.com/whatIsStopEnergy\\">stop energy</a>. I think we solved the problem, have reached a consensus, and will be ready to move forward shortly.",
+      "enclosures": Array [
+        Object {
+          "length": "12216320",
+          "mimeType": "audio/mpeg",
+          "url": "http://www.scripting.com/mp3s/weatherReportSuite.mp3",
+        },
+      ],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:56:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "Joshua Allen: <a href=\\"http://www.netcrucible.com/blog/2002/09/29.html#a243\\">Who loves namespaces?</a>",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:59:01PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "<a href=\\"http://www.docuverse.com/blog/donpark/2002/09/29.html#a68\\">Don Park</a>: \\"It is too easy for engineer to anticipate too much and XML Namespace is a frequent host of over-anticipation.\\"",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:6:52:02PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "<a href=\\"http://scriptingnews.userland.com/stories/storyReader$1768\\">Three Sunday Morning Options</a>. \\"I just got off the phone with Tim Bray, who graciously returned my call on a Sunday morning while he was making breakfast for his kids.\\" We talked about three options for namespaces in RSS 2.0, and I think I now have the tradeoffs well outlined, and ready for other developers to review. If there is now a consensus, I think we can easily move forward. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:10:05:20AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "<a href=\\"http://blog.mediacooperative.com/mt-comments.cgi?entry_id=1435\\">Mark Pilgrim</a> weighs in behind option 1 on a Ben Hammersley thread. On the RSS2-Support list, Phil Ringnalda lists a set of <a href=\\"http://groups.yahoo.com/group/RSS2-Support/message/54\\">proposals</a>, the first is equivalent to option 1. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:12:09:28PM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "<a href=\\"http://effbot.org/zone/effnews-4.htm\\">Fredrik Lundh breaks</a> through, following Simon Fell's lead, now his Python aggregator works with Scripting News <a href=\\"http://www.scripting.com/rss.xml\\">in</a> RSS 2.0. BTW, the spec is imperfect in regards to namespaces. We anticipated a 2.0.1 and 2.0.2 in the Roadmap for exactly this purpose. Thanks for your help, as usual, Fredrik. ",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#When:8:01:02AM",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [],
+      "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "title": undefined,
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "
+				<p><a href=\\"http://www.nbc.com/Law_&_Order/index.html\\"><img src=\\"http://radio.weblogs.com/0001015/images/2002/09/29/lenny.gif\\" width=\\"45\\" height=\\"53\\" border=\\"0\\" align=\\"right\\" hspace=\\"15\\" vspace=\\"5\\" alt=\\"A picture named lenny.gif\\"></a>A great line in a recent Law and Order. Lenny Briscoe, played by Jerry Orbach, is interrogating a suspect. The suspect tells a story and reaches a point where no one believes him, not even the suspect himself. Lenny says: \\"Now there's five minutes of my life that's lost forever.\\" </p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#lawAndOrder",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "title": "Law and Order",
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "
+				<p>In the discussions over namespaces in RSS 2.0, one thing I hear a lot of, that is just plain wrong, is that when you move up by a major version number, breakage is expected and is okay. In the world I come from it is, emphatically, <i>not okay.</i> We spend huge resources to make sure that files, scripts and apps built in version N work in version N+1 without modification. Even the smallest change in the core engine can break apps. It's just not acceptable. When we make changes we have to be sure there's no breakage. I don't know where these other people come from, or if they make software that anyone uses, but the users I know don't stand for that. As we expose the tradeoffs it becomes clear that <i>that's the issue here.</i> We are not in Year Zero. There are users. Breaking them is not an option. A conclusion to lift the confusion: Version 0.91 and 0.92 files are valid 2.0 files. This is where we started, what seems like years ago.</p>
+				<p>BTW, you can ask anyone who's worked for me in a technical job to explain rules 1 and 1b. (I'll clue you in. Rule 1 is \\"No Breakage\\" and Rule 1b is \\"Don't Break Dave.\\")</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#rule1",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "title": "Rule 1",
+    },
+    Object {
+      "authors": Array [
+        Object {
+          "name": "dave@userland.com",
+        },
+      ],
+      "categories": Array [
+        Object {
+          "name": "channel-category",
+        },
+      ],
+      "content": undefined,
+      "description": "
+				<p>One of the lessons I've learned in 47.4 years: When someone accuses you of a <a href=\\"http://www.dictionary.com/search?q=deceit\\">deceit</a>, there's a very good chance the accuser practices that form of deceit, and a reasonable chance that he or she is doing it as they point the finger. </p>
+				<p><a href=\\"http://www.docuverse.com/blog/donpark/2002/09/28.html#a66\\">Don Park</a>: \\"He poured a barrel full of pig urine all over the Korean Congress because he was pissed off about all the dirty politics going on.\\"</p>
+				<p><a href=\\"http://davenet.userland.com/1995/01/04/demoingsoftwareforfunprofi\\">1/4/95</a>: \\"By the way, the person with the big problem is probably a competitor.\\"</p>
+				<p>I've had a fair amount of experience in the last few years with what you might call standards work. XML-RPC, SOAP, RSS, OPML. Each has been different from the others. In all this work, the most positive experience was XML-RPC, and not just because of the technical excellence of the people involved. In the end, what matters more to me is <a href=\\"http://www.dictionary.com/search?q=collegiality\\">collegiality</a>. Working together, person to person, for the sheer pleasure of it, is even more satisfying than a good technical result. Now, getting both is the best, and while XML-RPC is not perfect, it's pretty good. I also believe that if you have collegiality, technical excellence follows as a natural outcome.</p>
+				<p>One more bit of philosophy. At my checkup earlier this week, one of the things my cardiologist asked was if I was experiencing any kind of intellectual dysfunction. In other words, did I lose any of my sharpness as a result of the surgery in June. I told him yes I had and thanked him for asking. In an amazing bit of synchronicity, the next day John Robb <a href=\\"http://jrobb.userland.com/2002/09/25.html#a2598\\">located</a> an article in New Scientist that said that scientists had found a way to prevent this from happening. I hadn't talked with John about my experience or the question the doctor asked. Yesterday I was telling the story to my friend Dave Jacobs. He said it's not a problem because I always had excess capacity in that area. Exactly right Big Dave and thanks for the vote of confidence.</p>
+				",
+      "enclosures": Array [],
+      "id": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://scriptingnews.userland.com/backissues/2002/09/29#reallyEarlyMorningNocoffeeNotes",
+        },
+      ],
+      "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "title": "Really early morning no-coffee notes",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": "en-us",
+  "lastPublished": undefined,
+  "lastUpdated": "Mon, 30 Sep 2002 11:00:00 GMT",
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "http://www.scripting.com/",
+    },
+    Object {
+      "rel": "",
+      "url": "http://www.scripting2.com/",
+    },
+  ],
+  "title": "Scripting News",
+  "type": "rss-v2",
+}
+`;
+
+exports[`when rss parse with itunes elements should return itunes information for channel and item elements 1`] = `
+Object {
+  "authors": Array [],
+  "categories": Array [],
+  "copyright": "℗ & © 2014 John Doe & Family",
+  "description": "All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": undefined,
+    "url": undefined,
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": undefined,
+      "enclosures": Array [
+        Object {
+          "length": "8727310",
+          "mimeType": "audio/x-m4a",
+          "url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a",
+        },
+      ],
+      "id": "http://example.com/podcasts/archive/aae20140615.m4a",
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "John Doe",
+          },
+        ],
+        "block": "yes",
+        "duration": "07:04",
+        "explicit": "yes",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg",
+        "isClosedCaptioned": undefined,
+        "order": "1",
+        "subtitle": "A short primer on table spices",
+        "summary": "This week we talk about <a href=\\"https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11\\">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!",
+      },
+      "links": Array [],
+      "published": "Tue, 08 Mar 2016 12:00:00 GMT",
+      "title": "Shake Shake Shake Your Spices",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": undefined,
+      "enclosures": Array [
+        Object {
+          "length": "5650889",
+          "mimeType": "video/mp4",
+          "url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode2.mp4",
+        },
+      ],
+      "id": "http://example.com/podcasts/archive/aae20140608.mp4",
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "Jane Doe",
+          },
+        ],
+        "block": "no",
+        "duration": "04:34",
+        "explicit": "no",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg",
+        "isClosedCaptioned": undefined,
+        "order": "2",
+        "subtitle": "Comparing socket wrenches is fun!",
+        "summary": "This week we talk about metric vs. Old English socket wrenches. Which one is better? Do you really need both? Get all of your answers here.",
+      },
+      "links": Array [],
+      "published": "Wed, 09 Mar 2016 13:00:00 EST",
+      "title": "Socket Wrench Shootout",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": undefined,
+      "enclosures": Array [
+        Object {
+          "length": "5650889",
+          "mimeType": "video/x-m4v",
+          "url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode2.m4v",
+        },
+      ],
+      "id": "http://example.com/podcasts/archive/aae20140697.m4v",
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "Jane Doe",
+          },
+        ],
+        "block": undefined,
+        "duration": "04:34",
+        "explicit": "no",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode3.jpg",
+        "isClosedCaptioned": "Yes",
+        "order": undefined,
+        "subtitle": "Jane and Eric",
+        "summary": "This week we talk about the best Chili in the world. Which chili is better?",
+      },
+      "links": Array [],
+      "published": "Thu, 10 Mar 2016 02:00:00 -0700",
+      "title": "The Best Chili",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": undefined,
+      "enclosures": Array [
+        Object {
+          "length": "498537",
+          "mimeType": "audio/mpeg",
+          "url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+        },
+      ],
+      "id": "http://example.com/podcasts/archive/aae20140601.mp3",
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "Various",
+          },
+        ],
+        "block": undefined,
+        "duration": "03:59",
+        "explicit": "no",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode4.jpg",
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": "Red + Blue != Purple",
+        "summary": "This week we talk about surviving in a Red state if you are a Blue person. Or vice versa.",
+      },
+      "links": Array [],
+      "published": "Fri, 11 Mar 2016 01:15:00 +3000",
+      "title": "Red,Whine, & Blue",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [
+      Object {
+        "name": "John Doe",
+      },
+    ],
+    "block": "no",
+    "categories": Array [
+      Object {
+        "name": "Technology",
+        "subCategories": Array [
+          Object {
+            "name": "Gadgets",
+          },
+        ],
+      },
+      Object {
+        "name": "TV & Film",
+        "subCategories": Array [],
+      },
+      Object {
+        "name": "Arts",
+        "subCategories": Array [
+          Object {
+            "name": "Food",
+          },
+        ],
+      },
+    ],
+    "complete": "yes",
+    "explicit": "no",
+    "image": "http://example.com/podcasts/everything/AllAboutEverything.jpg",
+    "newFeedUrl": "http://newlocation.com/example.rss",
+    "owner": Object {
+      "email": "john.doe@example.com",
+      "name": "John Doe",
+    },
+    "subtitle": "A show about everything",
+    "summary": "All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store",
+  },
+  "language": "en-us",
+  "lastPublished": undefined,
+  "lastUpdated": undefined,
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "http://www.example.com/podcasts/everything/index.html",
+    },
+  ],
+  "title": "All About Everything",
+  "type": "rss-v2",
+}
+`;

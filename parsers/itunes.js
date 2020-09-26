@@ -1,115 +1,81 @@
-var utils = require('./utils');
-var namespaces = require('./namespaces');
+const utils = require('./utils');
+const namespaces = require('./namespaces');
 
-exports.parseChannel = function(node) {
-  return {
-    authors: getAuthors(node),
-    block: getBlock(node),
-    categories: getCategories(node),
-    complete: getComplete(node),
-    explicit: getExplicit(node),
-    image: getImage(node),
-    newFeedUrl: getNewFeedUrl(node),
-    owner: getOwner(node),
-    subtitle: getSubtitle(node),
-    summary: getSummary(node)
-  }
+const getAuthors = (node) => {
+  const authors = utils.getElementTextContentArray(
+    node,
+    'author',
+    namespaces.itunes
+  );
+
+  return authors.map((author) => ({
+    name: author,
+  }));
 };
 
-exports.parseItem = function(node) {
-  return {
-    authors: getAuthors(node),
-    block: getBlock(node),
-    duration: getDuration(node),
-    explicit: getExplicit(node),
-    image: getImage(node),
-    isClosedCaptioned: getIsClosedCaptioned(node),
-    order: getOrder(node),
-    subtitle: getSubtitle(node),
-    summary: getSummary(node),
-  };
-};
+const getBlock = (node) =>
+  utils.getElementTextContent(node, 'block', namespaces.itunes);
 
-function getAuthors(node) {
-  const authors = utils.getElementTextContentArray(node, 'author', namespaces.itunes);
-
-  return authors.map(function(author) {
-    return {
-      name: author
-    };
-  });
-}
-
-function getBlock(node) {
-  return utils.getElementTextContent(node, 'block', namespaces.itunes);
-}
-
-function getCategories(node) {
-  const categories = utils.getChildElements(node, 'category', namespaces.itunes);
-
-  return categories.map(function(category) {
-    return {
-      name: category.getAttribute('text'),
-      subCategories: getSubCategories(category)
-    }
-  });
-}
-
-function getSubCategories(node) {
-  const categories = utils.getChildElements(node, 'category', namespaces.itunes);
+const getSubCategories = (node) => {
+  const categories = utils.getChildElements(
+    node,
+    'category',
+    namespaces.itunes
+  );
 
   if (categories.length === 0) {
     return [];
   }
 
-  return categories.map(function(category) {
-    return {
-      name: category.getAttribute('text')
-    }
-  });
-}
+  return categories.map((category) => ({
+    name: category.getAttribute('text'),
+  }));
+};
 
-function getComplete(node) {
-  return utils.getElementTextContent(node, 'complete', namespaces.itunes);
-}
+const getCategories = (node) => {
+  const categories = utils.getChildElements(
+    node,
+    'category',
+    namespaces.itunes
+  );
 
-function getDuration(node) {
-  return utils.getElementTextContent(node, 'duration', namespaces.itunes);
-}
+  return categories.map((category) => ({
+    name: category.getAttribute('text'),
+    subCategories: getSubCategories(category),
+  }));
+};
 
-function getExplicit(node) {
-  return utils.getElementTextContent(node, 'explicit', namespaces.itunes);
-}
+const getComplete = (node) =>
+  utils.getElementTextContent(node, 'complete', namespaces.itunes);
 
-function getImage(node) {
+const getDuration = (node) =>
+  utils.getElementTextContent(node, 'duration', namespaces.itunes);
+
+const getExplicit = (node) =>
+  utils.getElementTextContent(node, 'explicit', namespaces.itunes);
+
+const getImage = (node) => {
   const images = utils.getChildElements(node, 'image', namespaces.itunes);
 
-  if (images.length > 0) {
-    return images[0].getAttribute('href');
-  }
+  return images.length > 0 ? images[0].getAttribute('href') : undefined;
+};
 
-  return undefined;
-}
+const getIsClosedCaptioned = (node) =>
+  utils.getElementTextContent(node, 'isClosedCaptioned', namespaces.itunes);
 
-function getIsClosedCaptioned(node) {
-  return utils.getElementTextContent(node, 'isClosedCaptioned', namespaces.itunes);
-}
+const getNewFeedUrl = (node) =>
+  utils.getElementTextContent(node, 'new-feed-url', namespaces.itunes);
 
-function getNewFeedUrl(node) {
-  return utils.getElementTextContent(node, 'new-feed-url', namespaces.itunes);
-}
+const getOrder = (node) =>
+  utils.getElementTextContent(node, 'order', namespaces.itunes);
 
-function getOrder(node) {
-  return utils.getElementTextContent(node, 'order', namespaces.itunes);
-}
-
-function getOwner(node) {
+const getOwner = (node) => {
   const owners = utils.getChildElements(node, 'owner', namespaces.itunes);
 
   if (owners.length === 0) {
     return {
       name: undefined,
-      email: undefined
+      email: undefined,
     };
   }
 
@@ -117,12 +83,35 @@ function getOwner(node) {
     name: utils.getElementTextContent(owners[0], 'name', namespaces.itunes),
     email: utils.getElementTextContent(owners[0], 'email', namespaces.itunes),
   };
-}
+};
 
-function getSubtitle(node) {
-  return utils.getElementTextContent(node, 'subtitle', namespaces.itunes);
-}
+const getSubtitle = (node) =>
+  utils.getElementTextContent(node, 'subtitle', namespaces.itunes);
 
-function getSummary(node) {
-  return utils.getElementTextContent(node, 'summary', namespaces.itunes);
-}
+const getSummary = (node) =>
+  utils.getElementTextContent(node, 'summary', namespaces.itunes);
+
+exports.parseChannel = (node) => ({
+  authors: getAuthors(node),
+  block: getBlock(node),
+  categories: getCategories(node),
+  complete: getComplete(node),
+  explicit: getExplicit(node),
+  image: getImage(node),
+  newFeedUrl: getNewFeedUrl(node),
+  owner: getOwner(node),
+  subtitle: getSubtitle(node),
+  summary: getSummary(node),
+});
+
+exports.parseItem = (node) => ({
+  authors: getAuthors(node),
+  block: getBlock(node),
+  duration: getDuration(node),
+  explicit: getExplicit(node),
+  image: getImage(node),
+  isClosedCaptioned: getIsClosedCaptioned(node),
+  order: getOrder(node),
+  subtitle: getSubtitle(node),
+  summary: getSummary(node),
+});

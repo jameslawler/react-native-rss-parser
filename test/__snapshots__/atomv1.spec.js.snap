@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when parse ATOM valid document should return feed items 1`] = `
+Object {
+  "authors": Array [],
+  "categories": Array [],
+  "copyright": undefined,
+  "description": "A sample ATOM feed",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": undefined,
+    "url": "https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8M.png",
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [
+        Object {
+          "name": "Information",
+        },
+      ],
+      "content": "<p>The chocolate chip cookie was invented by Ruth Graves Wakefield. She owned the Toll House Inn, in Whitman, Massachusetts, a very popular restaurant that featured home cooking in the 1930s. Her cookbook, Toll House Tried and True Recipes, was first published in 1936 by M. Barrows &amp; Company, New York. The 1938 edition of the cookbook was the first to include the recipe “Toll House Chocolate Crunch Cookie” which rapidly became a favorite cookie in American homes.</p>
+
+<p>Source / Read more <a href=\\"https://en.wikipedia.org/wiki/Chocolate_chip_cookie\\">Wikipedia</a></p>
+    ",
+      "description": "The chocolate chip cookie was invented by Ruth Graves Wakefield.",
+      "enclosures": Array [
+        Object {
+          "length": "1234",
+          "mimeType": "audio/mpeg",
+          "url": "https://www.example.com/audio.mp3",
+        },
+      ],
+      "id": "http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from",
+      "imageUrl": "https://b.thumbs.redditmedia.com/ntr1FkBiO3nk4t4Vgy5GXoPQ_j2hirENH9iT8rXNf8.png",
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "alternate",
+          "url": "http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from.html",
+        },
+      ],
+      "published": "2016-01-02T00:00:00+13:00",
+      "title": "Where Did The Cookie Come From",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [
+        Object {
+          "name": "Information",
+        },
+      ],
+      "content": "<p>Sourdough bread is made by the fermentation of dough using naturally-occurring lactobacilli and yeast. Sourdough bread has a mildly sour taste not present in most breads made with baker’s yeast and better inherent keeping qualities than other breads, due to the lactic acid produced by the lactobacilli.</p>
+
+<p>Source / Read more <a href=\\"https://en.wikipedia.org/wiki/Sourdough\\">Wikipedia</a></p>
+    ",
+      "description": "Sourdough bread is made by the fermentation of dough using naturally-occurring lactobacilli and yeast. Sourdough bread has a mildly sour taste not present in most breads made with baker’s yeast and better inherent keeping qualities than other breads, due to the lactic acid produced by the lactobacilli.",
+      "enclosures": Array [],
+      "id": "http://bakery-store.example.com/information/2016/01/01/what-is-sour-dough",
+      "imageUrl": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "alternate",
+          "url": "http://bakery-store.example.com/information/2016/01/01/what-is-sour-dough.html",
+        },
+      ],
+      "published": "2016-01-01T00:00:00+13:00",
+      "title": "What Is Sour Dough",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": undefined,
+  "lastPublished": undefined,
+  "lastUpdated": "2016-05-13T16:22:08+12:00",
+  "links": Array [
+    Object {
+      "rel": "alternate",
+      "url": "http://bakery-store.example.com/",
+    },
+  ],
+  "title": "ATOM title",
+  "type": "atom-v1",
+}
+`;
+
+exports[`when parse ATOM with itunes elements should return itunes information for channel and item elements 1`] = `
+Object {
+  "authors": Array [],
+  "categories": Array [],
+  "copyright": undefined,
+  "description": "A sample ATOM feed",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": undefined,
+    "url": undefined,
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [
+        Object {
+          "name": "Information",
+        },
+      ],
+      "content": "<p>The chocolate chip cookie was invented by Ruth Graves Wakefield. She owned the Toll House Inn, in Whitman, Massachusetts, a very popular restaurant that featured home cooking in the 1930s. Her cookbook, Toll House Tried and True Recipes, was first published in 1936 by M. Barrows &amp; Company, New York. The 1938 edition of the cookbook was the first to include the recipe “Toll House Chocolate Crunch Cookie” which rapidly became a favorite cookie in American homes.</p>
+
+<p>Source / Read more <a href=\\"https://en.wikipedia.org/wiki/Chocolate_chip_cookie\\">Wikipedia</a></p>
+    ",
+      "description": "The chocolate chip cookie was invented by Ruth Graves Wakefield.",
+      "enclosures": Array [
+        Object {
+          "length": "1234",
+          "mimeType": "audio/mpeg",
+          "url": "https://www.example.com/audio.mp3",
+        },
+      ],
+      "id": "http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from",
+      "imageUrl": undefined,
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "John Doe",
+          },
+        ],
+        "block": "yes",
+        "duration": "07:04",
+        "explicit": "yes",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg",
+        "isClosedCaptioned": undefined,
+        "order": "1",
+        "subtitle": "A short primer on table spices",
+        "summary": "This week we talk about <a href=\\"https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11\\">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!",
+      },
+      "links": Array [
+        Object {
+          "rel": "alternate",
+          "url": "http://bakery-store.example.com/information/2016/01/02/where-did-the-cookie-come-from.html",
+        },
+      ],
+      "published": "2016-01-02T00:00:00+13:00",
+      "title": "Where Did The Cookie Come From",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [
+        Object {
+          "name": "Information",
+        },
+      ],
+      "content": "<p>Sourdough bread is made by the fermentation of dough using naturally-occurring lactobacilli and yeast. Sourdough bread has a mildly sour taste not present in most breads made with baker’s yeast and better inherent keeping qualities than other breads, due to the lactic acid produced by the lactobacilli.</p>
+
+<p>Source / Read more <a href=\\"https://en.wikipedia.org/wiki/Sourdough\\">Wikipedia</a></p>
+    ",
+      "description": "Sourdough bread is made by the fermentation of dough using naturally-occurring lactobacilli and yeast. Sourdough bread has a mildly sour taste not present in most breads made with baker’s yeast and better inherent keeping qualities than other breads, due to the lactic acid produced by the lactobacilli.",
+      "enclosures": Array [],
+      "id": "http://bakery-store.example.com/information/2016/01/01/what-is-sour-dough",
+      "imageUrl": undefined,
+      "itunes": Object {
+        "authors": Array [
+          Object {
+            "name": "Jane Doe",
+          },
+        ],
+        "block": "no",
+        "duration": "04:34",
+        "explicit": "no",
+        "image": "http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg",
+        "isClosedCaptioned": "yes",
+        "order": "2",
+        "subtitle": "Comparing socket wrenches is fun!",
+        "summary": "This week we talk about metric vs. Old English socket wrenches. Which one is better? Do you really need both? Get all of your answers here.",
+      },
+      "links": Array [
+        Object {
+          "rel": "alternate",
+          "url": "http://bakery-store.example.com/information/2016/01/01/what-is-sour-dough.html",
+        },
+      ],
+      "published": "2016-01-01T00:00:00+13:00",
+      "title": "What Is Sour Dough",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [
+      Object {
+        "name": "John Doe",
+      },
+    ],
+    "block": "no",
+    "categories": Array [
+      Object {
+        "name": "Technology",
+        "subCategories": Array [
+          Object {
+            "name": "Gadgets",
+          },
+        ],
+      },
+      Object {
+        "name": "TV & Film",
+        "subCategories": Array [],
+      },
+      Object {
+        "name": "Arts",
+        "subCategories": Array [
+          Object {
+            "name": "Food",
+          },
+        ],
+      },
+    ],
+    "complete": "yes",
+    "explicit": "no",
+    "image": "http://example.com/podcasts/everything/AllAboutEverything.jpg",
+    "newFeedUrl": "http://newlocation.com/example.rss",
+    "owner": Object {
+      "email": "john.doe@example.com",
+      "name": "John Doe",
+    },
+    "subtitle": "A show about everything",
+    "summary": "All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store",
+  },
+  "language": undefined,
+  "lastPublished": undefined,
+  "lastUpdated": "2016-05-13T16:22:08+12:00",
+  "links": Array [
+    Object {
+      "rel": "alternate",
+      "url": "http://bakery-store.example.com/",
+    },
+  ],
+  "title": "ATOM title",
+  "type": "atom-v1",
+}
+`;
