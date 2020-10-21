@@ -28,7 +28,7 @@ exports.getChildElements = (node, tagName, namespace) => {
 };
 
 exports.getElementTextContentArray = (node, tagName, namespace) => {
-  const nodes = this.getChildElements(node, tagName, namespace);
+  const nodes = exports.getChildElements(node, tagName, namespace);
 
   if (!nodes || nodes.length === 0) {
     return [];
@@ -38,7 +38,7 @@ exports.getElementTextContentArray = (node, tagName, namespace) => {
 };
 
 exports.getElementTextContent = (node, tagName, namespace) => {
-  const array = this.getElementTextContentArray(node, tagName, namespace);
+  const array = exports.getElementTextContentArray(node, tagName, namespace);
 
   return array.length === 0 ? undefined : array[0];
 };
