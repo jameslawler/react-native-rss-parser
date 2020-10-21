@@ -155,6 +155,10 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
 
 ## CHANGELOG
 
+### 1.5.1
+
+- Bug Fix: \_this.getElementTextContentArray is not a function [issue #16](https://github.com/jameslawler/react-native-rss-parser/issues/16) (thanks to julianbragachi)
+
 ### 1.5.0
 
 - Updated xmldom to version 0.3.0
