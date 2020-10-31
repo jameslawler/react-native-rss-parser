@@ -51,6 +51,7 @@ Object {
       },
       "links": Array [],
       "published": "Mon, 30 Sep 2002 01:56:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -80,6 +81,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 19:59:01 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -102,6 +104,7 @@ Object {
       },
       "links": Array [],
       "published": "Mon, 30 Sep 2002 01:52:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -124,6 +127,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -146,6 +150,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -168,6 +173,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -197,6 +203,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "source": undefined,
       "title": "Law and Order",
     },
     Object {
@@ -227,6 +234,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "source": undefined,
       "title": "Rule 1",
     },
     Object {
@@ -260,6 +268,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "source": undefined,
       "title": "Really early morning no-coffee notes",
     },
   ],
@@ -340,6 +349,7 @@ Object {
       },
       "links": Array [],
       "published": "Mon, 30 Sep 2002 01:56:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -362,6 +372,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 19:59:01 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -384,6 +395,7 @@ Object {
       },
       "links": Array [],
       "published": "Mon, 30 Sep 2002 01:52:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -406,6 +418,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -428,6 +441,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -450,6 +464,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -479,6 +494,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "source": undefined,
       "title": "Law and Order",
     },
     Object {
@@ -509,6 +525,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "source": undefined,
       "title": "Rule 1",
     },
     Object {
@@ -542,6 +559,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "source": undefined,
       "title": "Really early morning no-coffee notes",
     },
   ],
@@ -643,6 +661,7 @@ Object {
         },
       ],
       "published": "Fri, 31 Aug 2018 17:24:06 +0000",
+      "source": undefined,
       "title": "New in the WordPress.com Business Plan: Jetpack Search",
     },
     Object {
@@ -687,6 +706,7 @@ Object {
         },
       ],
       "published": "Tue, 14 Aug 2018 12:00:27 +0000",
+      "source": undefined,
       "title": "Introducing the Simple Payment Widget",
     },
   ],
@@ -776,6 +796,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -806,6 +827,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -836,6 +858,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -866,6 +889,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 17:05:20 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -896,6 +920,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 19:09:28 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -926,6 +951,7 @@ Object {
       },
       "links": Array [],
       "published": "Sun, 29 Sep 2002 15:01:02 GMT",
+      "source": undefined,
       "title": undefined,
     },
     Object {
@@ -963,6 +989,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 23:48:33 GMT",
+      "source": undefined,
       "title": "Law and Order",
     },
     Object {
@@ -1001,6 +1028,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 17:24:20 GMT",
+      "source": undefined,
       "title": "Rule 1",
     },
     Object {
@@ -1042,6 +1070,7 @@ Object {
         },
       ],
       "published": "Sun, 29 Sep 2002 11:13:10 GMT",
+      "source": undefined,
       "title": "Really early morning no-coffee notes",
     },
   ],
@@ -1122,6 +1151,7 @@ Object {
       },
       "links": Array [],
       "published": "Tue, 08 Mar 2016 12:00:00 GMT",
+      "source": undefined,
       "title": "Shake Shake Shake Your Spices",
     },
     Object {
@@ -1154,6 +1184,7 @@ Object {
       },
       "links": Array [],
       "published": "Wed, 09 Mar 2016 13:00:00 EST",
+      "source": undefined,
       "title": "Socket Wrench Shootout",
     },
     Object {
@@ -1186,6 +1217,7 @@ Object {
       },
       "links": Array [],
       "published": "Thu, 10 Mar 2016 02:00:00 -0700",
+      "source": undefined,
       "title": "The Best Chili",
     },
     Object {
@@ -1218,6 +1250,7 @@ Object {
       },
       "links": Array [],
       "published": "Fri, 11 Mar 2016 01:15:00 +3000",
+      "source": undefined,
       "title": "Red,Whine, & Blue",
     },
   ],
@@ -1271,6 +1304,1700 @@ Object {
     },
   ],
   "title": "All About Everything",
+  "type": "rss-v2",
+}
+`;
+
+exports[`when rss parse with source:encoded elements should return source information for item elements 1`] = `
+Object {
+  "authors": Array [],
+  "categories": Array [],
+  "copyright": "Sozlock.com",
+  "description": "Güncel Ekşisözlük Debe Listeleri",
+  "image": Object {
+    "description": undefined,
+    "height": undefined,
+    "title": undefined,
+    "url": undefined,
+    "width": undefined,
+  },
+  "items": Array [
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=aptal+dostun+olaca%c4%9f%c4%b1na+zeki+d%c3%bc%c5%9fman%c4%b1n+olsun\\">aptal dostun olacağına zeki düşmanın olsun</a> diye boşa söylememiş atalar. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99395",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114934365",
+        "url": "https://eksisozluk.com/entry/114934365",
+      },
+      "title": "emine hanım'ın çakma çanta kullanıyor olması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 (bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=hamambocekleri\\">hamambocekleri</a>) yuvasından cikmis . bu hayatta dinleri disinda hiç bir seye saygıları yok.<br/><br/>insanlarimizin cani yanmış alcak mahluklar . bari susun insanlar dertlerine baksin 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99396",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114949823",
+        "url": "https://eksisozluk.com/entry/114949823",
+      },
+      "title": "ensonhaber'deki ege denizi depremi yorumları",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 yakın zamana kadar bende iyi erkek olduğumu düşünürdüm. daha sonra bir yerlerde bir yazı okudum ve fikrim değişti. yazıdan aklımda kalanlara gelecek olursak; kendini iyi, sadık ve ideal erkek olarak gören erkekler genelde risk almayan, etliye sütlüye karışmayan, kendi halinde mutlu yaşayan, insanları çok sevmeyen erkeklerdir minvalinde bir yazıydı. okuyunca dedim ki; evet lan! bu biraz benim sanırım. sonra bir sigara yaktım, rüzgarın odadaki perdeyi hareketlendirmesini izledim, saate baktım, kalkıp bir bardak su içip telefonumu şarja taktım, sonra lavobaya girip aynaya baktım. aynada kendimi görünce bir an duraksadım.. kısa bir duraksamadan sonra ağzımdan şu kelimeler döküldü; senin ben sıfatını sikeyim 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99397",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114925481",
+        "url": "https://eksisozluk.com/entry/114925481",
+      },
+      "title": "iyi erkeklerin nerede olduğu sorunsalı",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 gözlerime inanamıyorum. orman bakanı enkaz üstüne çıkmış, kurtarma ekibinin elindeki telefonu alıp, enkaz altındaki depremzedeye büyük ihtimalle malum şahsın selamını söylüyor.<br/>kaynak: <a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://www.youtube.com/watch?v=g02-sZ2gNk0\\">https://www.youtube.com/watch?v=g02-sz2gnk0</a><br/><br/>edit: entry'yi ilk girdiğimde enkaz üstündeydi. konuşurken kaçamak gözlerle medyaya baktı. sonra karar verdi, aşağıya inip medya mensuplarının arasına girip orada konuşmaya devam etti. hatta medya mensuplarını sessiz olmaları konusunda uyardı. ben böyle bir rezalet görmedim.<br/><br/>edit 2: depremzenenin şarjı bitiyor olabilir, gecikmeden dolayı artçı depreme yakalanılabilir, sen ve yanındaki korumaların kurtarma ekibinin dikkatini dağıtıyor olabilirsin. ekstra güvenlik sorunu yaratıyor olaiblirsin.. olabilirsin oğlu olabilirsin...<br/><br/>edit 3: zihniyet : 'ben bir konuşayım, sonra bir ara siz kurtarırsınız'. hatta 'durun bakan konuşacak, siz sonra kurtarırsınız'. hatta ve hatta 'ver bakıyım o telefonu, reisimizin selamını söyleyim de, siz sonra bi ara kurtarırsınız'<br/><br/>edit 4: ameliyata girip “verin bakalım şu bisturiyi” demek gibi bir şey. (harry goatleaf'ten alıntı) 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99398",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114956197",
+        "url": "https://eksisozluk.com/entry/114956197",
+      },
+      "title": "orman bakanının enkaz üstündeki şovu",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 tam hesaplıyorum, bir iki euro daha düşüyor. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99399",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114939258",
+        "url": "https://eksisozluk.com/entry/114939258",
+      },
+      "title": "yazarların bir aylık euro kazancı",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 görev aldığı hükümetler pek başarılı olmasa da malum garabetten bin kat iyiydi.eşi de görgüsüzlüğün kitabını yazmamış son derece hanımefendi bir kadındı. <br/>allah rahmet eylesin. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99400",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114936983",
+        "url": "https://eksisozluk.com/entry/114936983",
+      },
+      "title": "mesut yılmaz",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bugüne kadar yaşattıklarının on katını daha yaşatmadan ölmeyecek. aha bu da benim \\"bu devirde pc alınmaz\\" gibi tarihe notumdur.<br/><br/>edit: tek harfle anlam çok değişiyor. yazdığımı iyi okuyun. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99401",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114927054",
+        "url": "https://eksisozluk.com/entry/114927054",
+      },
+      "title": "hala ölmemesi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 7 aile var gardaşım rockefeller rotschild george soros falan. onlar yapıyo hep.<br/><br/>bi de marilyn manson kaburgalarını aldırmış.<br/><br/>edit: mesaj kutusu doldu taştı. eminem, lady gaga, haliç altınları. <sup class=\\"ab\\"><a title=\\"(bkz: swh)\\" href=\\"https://eksisozluk.com/?q=swh\\" data-query=\\"swh\\">*</a></sup> 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99402",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114935521",
+        "url": "https://eksisozluk.com/entry/114935521",
+      },
+      "title": "dolar ve euro'nun tl karşılığına kim karar veriyor",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 islamcıların yeni konsolidasyon malzemesi.<br/><br/>neptün hanım o fotoğrafı paylaştığı dönemde yani 5 sene önce herkes je suis charlie diyordu hatta dönemin başbakanı cenaze töreninde ön safa geçmek için mücadele <a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://t24.com.tr/haber/davutoglu-charlie-hebdo-yuruyusunde-1-siraya-nasil-gecti,291612\\" title=\\"https://t24.com.tr/haber/davutoglu-charlie-hebdo-yuruyusunde-1-siraya-nasil-gecti,291612\\">ediyordu</a><br/><br/>yemezler. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99403",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114956076",
+        "url": "https://eksisozluk.com/entry/114956076",
+      },
+      "title": "neptun soyer",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 üst edit: <a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://youtu.be/dFLxooPmC2g\\" title=\\"https://youtu.be/dFLxooPmC2g\\">youtube linki</a><br/>00.00 itibariyle zehir salındı.<br/>sözler:<br/><br/>dualar tutmadı<br/>gönüller doymadı<br/>kadınlar gülmedi<br/>şu ömrümüzde<br/><br/>hesaplar bitmedi<br/>saraylar yetmedi<br/>savaşlar durmadı<br/>şu ömrümüzde<br/><br/>vebali hala boynumuzda<br/><br/>davullar çalınsın<br/>köleler uyansın<br/>silahlar yakılsın<br/>bu düzen yıkılsın<br/><br/>destanlar yazılsın<br/>umutlar yayılsın<br/>sınırlar açılsın<br/>bu düzen yıkılsın<br/><br/>her anı bir sihir<br/>hem ilaç hem zehir<br/>emanet bir seyir<br/>şu ömrümüzde<br/><br/>inancı hala ruhumuzda<br/><br/>davullar çalınsın<br/>köleler uyansın<br/>silahlar yakılsın<br/>bu düzen yıkılsın<br/><br/>davullar çalınsın<br/>köleler uyansın<br/>silahlar yakılsın<br/>bu düzen yıkılsın<br/><br/>destanlar yazılsın<br/>umutlar yayılsın<br/>sınırlar açılsın<br/>bu düzen yıkılsın 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99404",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114926214",
+        "url": "https://eksisozluk.com/entry/114926214",
+      },
+      "title": "bu düzen yıkılsın",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bırakın gazeteciyi bir insan ne pahasına olursa olsun bu kadın kadar alçalamaz.<br/><br/>çanta hakkında yazdığı yazı tam bir rezalet, aldığı bilgiler öyleymiş, bende yıkamacı hande fırata bir bilgi vereyim, koruduğu insanlar parise filan gittiği zaman o markanın dükkanını kapatıyor haberi olsun belki yazıya döker sonuçta bu da bir bilgi hemde gerçek.<br/><br/>kendisi gazeteci veya yazarın zerresi olamaz. geldiği noktaya yandaş olduğu için, bu tip yazıları talimatla yerine getirir ve dietini ödemek zorundadır. utanması, arlanması olmayan tayfadan maalesef. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99405",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114934826",
+        "url": "https://eksisozluk.com/entry/114934826",
+      },
+      "title": "hande fırat",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 çevre ve şehircilik bakanının <a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://twitter.com/aacanli/status/1322161454875815936?s=21\\" title=\\"https://twitter.com/aacanli/status/1322161454875815936?s=21\\">açıklamasıdır</a>.<br/><br/>çevre ve şehircilik bakanı kurum: \\"cumhurbaşkanımızın talimatıyla tarım ve orman bakanımız bekir pakdemirli ile hemen izmir’e geçiyoruz.\\"<br/><br/>cumhurbaşkanı talimat vermeseydi gidemeyecek miydiniz?!! bir gün de talimat almadan göreviniz icabı gidin be kardeşim.<br/><br/>bakanlar maşallah birbiriyle yarışıyorlar (bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=orman+bakan%c4%b1n%c4%b1n+enkaz+%c3%bcst%c3%bcndeki+%c5%9fovu\\">orman bakanının enkaz üstündeki şovu</a>) 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99406",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114951830",
+        "url": "https://eksisozluk.com/entry/114951830",
+      },
+      "title": "cumhurbaşkanımızın talimatıyla izmir'e gidiyoruz",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bakın azeriler de sivilleri öldürüyor diye götünü yırtan pkk'lıların yine önümüze ne olduğu anlaşılamayan bir videodan başka bir bok getirememelidir. <br/><br/>orospu çocuğu pkk'lının biri de yine \\"tarafsızım ben iki tarafa da lanet ediyorum bunlar çok kaka şeyler ühühü\\" ayağına yatmış. ne bok olduğunu bilmiyoruz sanki. neymiş \\"sadece ermeniler şehir bombalıyor gibi bir ortam yaratılıyor\\"muş... bak hele kahpeye. sanki bilmiyoruz ermenistan'ın kurgu haberlerini sözlüğe taşımak için ermeni forumlarında yatıp kalktığını. hala bir bok bulamadı ama, bulsa sözlüğe boşalıp rahatlayacak. şu an sadece eveleyip gevelemek geliyor elinden.<br/><br/>savaş karşıtlığını sikeyim senin. azerbaycan cidden ermeni sivilleri katletse ohh bana prim yapma fırsatı çıktı diye türk ırkçılarından önce zil takıp oynayacak adamsın. <br/><br/>savaş karşıtı olan adam ermenistan'ın işgal ettiği topraklardan çıkması gerektiğini savunur her şeyden önce. öyle yazınca kuyruğuna takılan pkk'lılardan tepki geleceğini bildiği için götü yemiyor puştun.<br/><br/>pkk'lı olmadığını da külahıma anlat. entry'lerini kimler favlıyor, kimler yazdıklarından prim yapıyor ayan beyan ortada. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99407",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114924979",
+        "url": "https://eksisozluk.com/entry/114924979",
+      },
+      "title": "ermeni şehirlerinin misket bombasıyla bombalanması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 başardık arkadaşlar: polisimiz olaya el attı. var ol türk polisi. <br/><br/><a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://www.egm.gov.tr/30102020-tarihli-basin-aciklamasi\\" title=\\"https://www.egm.gov.tr/30102020-tarihli-basin-aciklamasi\\">https://www.egm.gov.tr/…20-tarihli-basin-aciklamasi</a><br/><br/>başlık başa 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99408",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114949729",
+        "url": "https://eksisozluk.com/entry/114949729",
+      },
+      "title": "30 ekim 2020 ege depremini zinaya bağlayan kız",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bakalım götünü yaladığımız araplardan ses çıkacak mı? 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99409",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114954186",
+        "url": "https://eksisozluk.com/entry/114954186",
+      },
+      "title": "israil'in türkiye'ye yardıma hazırız demesi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 hırsızlıktan, yolsuzluktan, sefaletten ve toplumsal çürümeden rahatsız olan bir tane dinci yok. siz nasıl insanlarsınız? 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99410",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114936614",
+        "url": "https://eksisozluk.com/entry/114936614",
+      },
+      "title": "içkiden rahatsız oluyorum",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 kaybettiğim özgüvenisizliğimden utanarak söylüyorum ve gözüm dolu yazıyorum ben bir kekemeyim ve üstüne yıllardır işsizim.. <br/>çaresizim annem günlerdir çaresizliğime ağlıyor kaç kere kime yazsam sonuç alamıyorum yönlendirilen yerdende sonuç alamıyorum sadece iş istiyorum psikolojik olarak çöktüm bu yaşımda kekemelik ve işsizlikten <br/><br/>allah benim dilimden alsın sana versin oğlum diyen annemin sözü yüreğimi acıtıyor <br/><br/>cimer valilik bizi temsil eden millet vekillerimize herkese yazdım herkes birine yönlendirdi yönlendiren herkes haber vereceğim deyip unuttu beni yokmu devlet eli? sesimi duyacak kimse yokmu? kekemeliğin tedavisi yokmu kendimizi ifade edemiyoruz hayal ettiğim mesleği yapamıyorum ağzımdan çıkamayan sözler içimde yara oluyor<br/><br/>iş bulamıyorum bütün devlet kanallarına ulaşmaya çalıştım kekemeyim engelli sayılmıyorum ama iş bulamıyorum evleneceğim 7 yıldır işsizizim bu kusurumu sadece devlet görmezden gelip iş verir işime sarılmak istiyorum gelirim olsun istiyorum <br/>lütfen yokmu sesimi duyurabilecek devletim herhangi bir mecrasında çalıştırabilecek bir yazar? psikolojik olarak artık iyi değilim dışlanıyorum<br/>yaşım 25 istanbulda yaşıyorum mesleki lise mezunuyum lütfen sesimi duyun.. son çarem ekşi sözlük derman olacak birilerine ulaşsın bu başlığım <br/><br/>bir çok siyasetçiye gittim işkura başvurdum cimer e yazdım kimse bana yardımcı olmadı özgüvensizlikten ailevi sorunlardan kendimi geliştiremedim içimi döküyorum yanlış anlamayın konuşarak anlatamadıklarımı yazarak anlatmak istiyorum kekemede olsam bu ülkenin bir vatandaşıyım nolur bir devlet eli değsin tek istediğim iş o işime sıkı sıkı sarılayım <br/><br/>abilerim! lütfen beni yanlış anlamayın ben çalışarak karşılık istiyorum dilenmiyorum akıcı konuşan insanları kendimden üstün görüyorum okadar ezildim yeni sınıfta öğretmen okadar arkadaşımın içinde adımı sormasından korkarak büyüdüm bu elimde olan birşey değildi<br/><br/>neler yapabilirim?<br/><br/>bilişim lise mezunuyum ehliyetim var bilgisayar alanına yatkınım donanımsal veya web site yönetme e ticaret alanındada çalışabilirim. klaviyem hızlıdır teknolojiye çok yatkınım <br/><br/>bana bir abilik ablalık yapar mısınız? unutulmak istemiyorum destek olun lütfen ümidim bu başlık<br/><br/>not: gözüm doldu ağlıyorum ilkdefa kusurumla sahiplenme duygusunu tadıyorum öyle psikolojik destek mesajlar varki duygulanmamam elde değil meğer ne kadar ihtiyacım varmış kekemeyim dememe sık başlık açan birisi değilim anlık içimden geldi iyikide açtım ne kadar güzel abi ablalarım varmış teşekkür ederim umarımda çözüm olur<br/><br/>not 2 : şu şu doktora git diyen yazar hocalarım abilerim ablalarım sağolun ama sigortam iş gelirim ve maddi durumum yokki gidebileyim<br/><br/>not 3 : kekeme ve işsiz bir eş baba olmak? ne kadar utanç vericidir bilir misiniz bazı yazarlar konuşamamanın yarasını bilmeden üniversite hayat başarısını anlatıyor sağolsun anlayamadan kalbimi inciten sözleriniz için sağolun<br/><br/>gelişme : en güzel desteği yüreğimi okşuyan güzel sözlerden tavsiyelerden aldım benim için en değerlisi bu oldu.. ama iş olarak maalesef gelişme yok<br/><br/>ekşi sözlük yazarı olmayan için mail adresim: yunusemrevefa@gmail.com<br/><br/>“ izmir depremi geçmiş olsun panik atak olarak geçirdim istanbuldan hissedildi.. “<br/><br/>30.10.2020 saat 20:18 güncelleme: kimseden geri dönüş alamadım cv attıklarımdan’da dönüş bekliyorum.. burada bazı yazarlardan yargılandım eminim yüz yüze olsak konuşabilseydim’de kendimi savunamazdım kelimeleri yutardım..<br/><br/>benim kelimelerim sesimden kırılıp kimseye çarpmayacak çünkü kendimi ifade edemiyorum.<br/><br/>kelimelerin kederli ya da sevinçli insanları ikna etme gücü yoktur. sevincin ve kederin son anlatım hali sessizliktir.. hapis kaldığım sessizliğime doğru yürüyorum 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99411",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114932193",
+        "url": "https://eksisozluk.com/entry/114932193",
+      },
+      "title": "ben bir kekemeyim iş bulamıyorum",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=ke%c5%9fke+%c3%b6lseniz+mikroplar.\\">keşke ölseniz mikroplar.</a><br/><br/>tanım: son 18 yılda türban takıp yetim hakkı yiyerek zengin olmuş beyin özürlü, müslüman görünümlü cipli şıllıklar.<br/><br/><a class=\\"b\\" href=\\"https://eksisozluk.com/?q=edit\\">edit</a>: başlık sahibi gitmiş. kaynak eklemesi.<br/><br/>--- <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=spoiler\\">spoiler</a> ---<br/><br/>bir yazar arkadaşın uyarısı üzerine paylaşılan kaynaktaki tweette bir başka hanımefendinin resmi kullanılmış izinsiz. ilgili kullanıcıya yönelik yasal işlemi başlattıklarından bahsettiğinden yanlış kaynak kaldırıldı.<br/>--- <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=spoiler\\">spoiler</a> ---<br/><br/><a class=\\"b\\" href=\\"https://eksisozluk.com/?q=edit-2\\">edit-2</a> depremde zarar gören insanlara saldıran bir mikrop daha. cahilcem olmadığı için ben anlayamadım! <a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://twitter.com/iykibesiktasvar/status/1322188653544804354?s=21\\" title=\\"https://twitter.com/iykibesiktasvar/status/1322188653544804354?s=21\\">yobazın videosu</a> 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99412",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114950549",
+        "url": "https://eksisozluk.com/entry/114950549",
+      },
+      "title": "ege depremiyle dalga geçen başörtülü kadınlar",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 kedi, fare falan gibi hayvanlar içinde bulundukları habitatın belasıdır. <br/>yanlış anlaşılmasın bunu bir kedi aşığı olarak yazıyorum. evimde de kedi besliyorum. ama yeni zellanda, avustralya, galapagos gibi yerlerde kapalı bir habitat hakimdir. her türlü pislikle mücadele etmiş survivorlar buranın ılık götlü hayvanlarını siklemezler. fare mesela dünyanın her yerinde avcı besiniyken galapagos'ta besin zincirinin neredeyse tepesine yerleşmiş ve bir çok nadir ve büyüleyici türü yok etmiştir. keza kedi de bu tarz bir hayvan. çok ürer. zekidir. doğal düşmanı normalde bile çok azdır. besin çeşitliliği çok fazladır. kuş, böcek, kemirgen, gelincik, sincap, balık, sürüngen, yumurta, ot, bok... ne bulursa avlar ve yer. bazen de yemez, sadece öldürür. doğada boyut olarak da büyüme eğilimindedirler bu da yırtıcılıklarını arttırır. velhasıl avustralya için gerçekten kabus bir hayvan. <br/><br/>adamların uyguladıkları çözüm vicdani değil. fakat domuz da aynı şekilde avustralya'ya giriş yapmış bir hayvan ve ciddi zararlar vermiş. onların da nüfusunu kontrol altında tutmak için benzer methodlar izliyolar. <br/><br/>açıçası türkiye'den adamların ülkelerini nasıl yöneteceklerine karışamıcam. doğanın dengesini nasıl koruduklarına da karışamıcam.<br/><br/>benim içim hala kaz dağları için sızlıyor. kendi ülkem için bişey yapamadım, bana en amk allahın avustralyasından.<br/><br/>bu arada kedi çok acımasız ve sadist bir hayvan. bu yaz kaç tane ağustos böceğini elinden kurtardık, kaçını farketmedik de işkence ede ede öldürüp bıraktı belli değil. ulan sushi! 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99413",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114931482",
+        "url": "https://eksisozluk.com/entry/114931482",
+      },
+      "title": "avustralya'nın 2 milyon kediyi yok etmesi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 videoda kediyi bilerek ezmediği görüldüğü için cani olup olmadığını bilmediğimiz sürücüdür. başlığı açan yazarın ifadesini okuyunca zannediyorsunuz ki sürücü bilerek kediyi ezmiş. yok öyle bir şey. kedi birden arabanın altına giriyor, araç yüksek olduğu için de sürücü kediyi görmemiş olabilir. bir de haber sitesindeki uzun yazıyı olduğu gibi kopyala yapıştır yapmak da ayrı bir gariplik.<br/><br/>edit: bu videoda sorun yapmanız gereken şey aracın kediyi ezmesi değil, yerde yatan ölü kedinin yanından etrafından geçen hiçkimsenin kediyi kaldırmaması. duyar yapacaksanız buna yapmanız gerekir ama siz görünmez bir kaza üzerinden sürücüyü linç etmeye çalışıyorsunuz. bu arada yazıdaki cani ifadesi ve haber yazısı silinmiş. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99414",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114940996",
+        "url": "https://eksisozluk.com/entry/114940996",
+      },
+      "title": "bursa'da kediyi poşet gibi ezen sürücü",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 mecidiyeköy veya bostancı açıklarında godzilla görmeyi bekliyorum, bence kapanışa bu yakışır. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99415",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114949349",
+        "url": "https://eksisozluk.com/entry/114949349",
+      },
+      "title": "2020 kapanışı nasıl yapar",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 keşke tüm nüfus inançsız olsaymış. <br/>takdir edilesi durumdur 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99416",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114925048",
+        "url": "https://eksisozluk.com/entry/114925048",
+      },
+      "title": "azerbaycan'ın nüfusunun yarısının inançsız olması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 adam demişsiniz ama,<br/><br/>ben bir bok gördüm. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99417",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114953380",
+        "url": "https://eksisozluk.com/entry/114953380",
+      },
+      "title": "ege depremini dinsizliğe bağlayan adam",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 edepsizlik.<br/>onu bunu bırakın markette çalışıyorum sebze- meyve seçerken kullandıkları eldivenleri, bu insanlar büsküvi reyonlarına, sepetlere, meyve sandıklarına buldukları her deliğe koyuyorlar veya alenen direkt yere atıyorlar. sepetlerin içi sayısız çift eldivenle doluyor. onu geçtim en sevdiğim insan modelleri ise kasaya gelip o eldivenleri kasanın üstüne atanlar. adeta eldivenleri önümüze atışları artistik hareket olarak nitelendirilesi. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99418",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114925023",
+        "url": "https://eksisozluk.com/entry/114925023",
+      },
+      "title": "türk insanının yere çöp atma sebebi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 (bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=en+ufak+depremde+%c3%a7%c3%b6ken+ileti%c5%9fim+a%c4%9f%c4%b1\\">en ufak depremde çöken iletişim ağı</a>)<br/><br/>istanbul depreminden sonra hiçbir şey yapılmamış, çöl bedevilerini beslemeye devam edilmiş. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99419",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114947813",
+        "url": "https://eksisozluk.com/entry/114947813",
+      },
+      "title": "30 ekim 2020 gsm operatörlerinin yine sıçması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 leş bi kültürdü. hatta kültür değildi. cd'ler çizik çıkar, kimisinin içi boştur. bir de film kiralamak diye bişey vardı ki sorma gitsin. ikinci cd çalışmaz, donar, filmin içine ederdi. <br/><br/>şimdilerde merak ediyorum güzel ve izlemeye değer olup olmadığı meçhul filmleri almak için dakikalarca yol yürümeye motive eden şey neydi. belki şu an seçeneğin çok olması bizi tatminsiz bireyler hâline getirdi ama eski zamanlar da çok keyifli değildi. geçmişe özlem yanılgısı bizdeki. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99420",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114935330",
+        "url": "https://eksisozluk.com/entry/114935330",
+      },
+      "title": "2000'li yılların korsan cd satıcılarını özlemek",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 giyimden, kuşamdan, inançtan bağımsız.. <br/><br/>kahpe kahpedir.<br/><br/>o şahıs da kahpenin flama taşıyanıdır. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99421",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114949714",
+        "url": "https://eksisozluk.com/entry/114949714",
+      },
+      "title": "asena türk",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 (bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=15+temmuz+%c5%9fehitler+fiberoptik+kablo\\">15 temmuz şehitler fiberoptik kablo</a>)<br/><br/>bu espri bir türlü baymıyor lan beni. özür dilerim. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99422",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114947592",
+        "url": "https://eksisozluk.com/entry/114947592",
+      },
+      "title": "fiber optik kablo markası için isim önerileri",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 29 ekim ve çanakkale savaşı ile alakalı çokça entry girilince (büyük bi kısmını okudum) ben de iki kelam etmek istedim. hem genel savaşla alakalı birkaç klişeden söz etmek, hem de bu savaş ile 29 ekim'i bağdaştırmaya çalışan konsepte değineceğim. öncelikle şunu söyleyeyim, ekranda gördüğünüz o şehitlik bölgesinde haftada bir youtube için çekim yapıyorum ve alanda tarih araştırmaları gerçekleştirip keşfedilmeyen kıyıda köşede kalmış son yerlerde gezip öğreniyor ve öğrendiklerimi paylaşıyorum. akademik olarak tarih camiasının talebe ferdiyim. bunları yazıyorum ki entry sonrası \\"kaynağın ne\\" vs gibi sorularla uğraşmayalım.<br/><br/>öncelikle birkaç klişe efsaneye cevap verelim: <br/><br/>-yarışmada bahsi geçti mi bilmiyorum ama burda tartışma konusu olmuş, çanakkale savaşı'na 18 yaşından küçükler alınmadı. 13-14-15 yaşlarında hiçbir çocuk çanakkale'de şehit düşmeyi bırakın, çanakkale'ye gönderilmedi bile. o gördüğünüz asker kıyafeti giydirilmiş çocukların hemen hepsi, kazım karabekir paşa'nın ağırlıklı olarak kurtuluş savaşı sonlarında ve cumhuriyetin ilk yıllarında sahip çıktığı yetim kalmış çocuklardır. askeri kıyafetler giydirilip resmi geçitlerde yürütülmüşlerdir, fotoğraflar o geçit törenlerinden kalmadır. bir kısım gençlerin de üzerinde izci formalarının olduğu fotoğraf vardır, özellikle trabzon lisesi'nden çanakkale'ye bu liseli gençlerin gönderildiğine dair efsane çokça ortaya atılır fakat formalarına bakarak anlayacağınız gibi bunlar izcidir, savaşla alakaları yoktur (fotoğraf eklemiyorum, nette bolca var zaten hepiniz biliyorsunuz).<br/><br/>arkadaşlar, insanların yeri geldiğinde siper kazmak için kullandığı kürek ve sopalarla birbirine girdiği umumi harp halinden bahsediyoruz. mantıken 13-14 yaşlarında çocukların zaten böyle kanlı boğuşmaya iştirak edemeyeceğini anlamanız çok mu zor? çocuğun ne işi var harpte? yetişkin insan bile o kan ve barut kokusunda zor duruyor, çocuk ne yapacak? bombayı sırtlayıp kendi mi hedefleri vuracak? neyse çok şey yazılır da devam edelim biz.<br/><br/>-programı normalde izlemiyorum fakat evdekiler izlediği için ve çanakkale'de çekim yapıldığı için bir kısmına ben de baktım. yarışmacıların şehitlik ve civar yerlerini gezip mermi, şarapnel parçası vs gibi tarihi eserler bulması pek mümkün değil. o tarihi eserler tahminimce biraz kurgusal şov amaçlı yarışmacı arkadaşlara verilmiş ve \\"kendiniz gezinirken tesadüfen bulduk imajı verin\\" denmiş. yarımada'da gezmediğim yer kalmadı, bu tarz küçük tarihi eserlere bir kez olsun rastlamadım. rastlayanlar elbette var, fakat mesela yoğun yağış alan günlerden sonra yarı çamurlu araziye çıkarsanız toprağın iç kısmında kalan cisimlerin yüzeye çıktığını fark edersiniz. çünkü şiddetli yağan yağmur toprağı aşındırır ve gömülü cisimlerin yüzeye çıkmasına imkan verir. yarışmacılar böyle bir havada toprağa basmadığına göre o küçük parçaları bulması da kurgu olmuş diye tahmin ediyorum.<br/><br/>-savaşta iaşe çok iyi düzeyde idi, yiyecek ve içecek bakımından sıkıntı çekildiği fazla görülmemiştir. etli bulgur, etli nohut, çorba askerlerin başlıca yemeği idi. hoşaf edebiyatı yapmak tarihe saygısızlıktır. ancak maddi açıdan, özellikle silah (makineli tüfek) eksikliğimiz ciddi derecede vardı. sırf bu eksiklikten dolayı haintepe kaybettiğimiz ilk yerlerden biridir, ilgili başlığa girip okuyabilirsiniz.<br/><br/>-savaşla ilgili çok şey yazılır fakat daha fazlasına şimdilik lüzum yok, başlık da bunun için pek uygun değil. gelelim 29 ekim ve çanakkale meselesine: yazar arkadaşların çoğunun yakındığı gibi ben de aynı kanaatteyim: 29 ekim için kesinlikle ankara seçilmeliydi. sadece ilk meclisin varlığı ve cumhuriyetin temellerinin atıldığı o ruh için ankara'da yapılmalıydı çekimler. evet atatürk çanakkale'de bir güneş gibi parlayıp adından söz ettirmiş ve ün kazanmıştır, evet çanakkale gerçekten de kurtuluş savaşı mücadelesinin önsözüdür diyebiliriz, her ne kadar birinde düzenli ordu savaşsa ve diğerinde halk milisleri ve asker kaçakları yer edinse de bence bu söz, en azından iyi niyetle kullanılırsa yanlış diyemeyiz, bu da kabul. ancak 29 ekim dediğin zaman işte orda dur derim... çanakkale'nin hiç alakası yok. doğrudan da yok, dolaylı olarak da yok. bu programın çanakkale'de çekilmesi için 18 mart olsa anlarım, 25 nisan olsa anlarım... bak önümüz 3 kasım, 3 kasım olsa yine anlarım. 3 kasım'da ne oldu ki? dediğinizi duyar gibiyim, 3 kasım hem cihan harbi'ne resmen girdiğimiz hem de yine çanakkale'de verdiğimiz ilk şehitler günüdür. itilaf kuvvetleri boğazı ilk kez bu tarihte ablukaya alıp bomba yağdırmıştır.<br/><br/>ama 29 ekim'den bahsediyorsak, onun yeri çanakkale değil. ayrıca, her ne kadar ideolojik görüş olarak kendisini hiç sevmesem de çanakkale belediye başkanı ülgür gökhan'ın programa davet edilmeyişi kabul edilecek bir davranış değil. ülgür gökhan'ı en son 18 mart törenlerinde konuşturmama kararı almışlar ve bir belediye başkanı stadyuma gidip konuşma yapamaz olmuştu. belli ki birilerinin verdiği talimat doğrultusunda aynı yaklaşım devam ediyor. gökhan'ın görüşlerini paylaşmayabilirim, ama bu ona yapılan haksızlığı ve saygısızlığı görmezden geleceğim anlamına da gelmez.<br/><br/>cumhuriyet ve değerleriyle sorunu olanlar ancak böyle çiğliklere imza atabilir. \\"çanakkale savaşı'nı gösterelim, herkes sahip çıkıyor neticede. ama 29 ekim'i anımsatacak bir şey göstermeyelim, neo osmanlıcılar kızabilir\\" algısıyla çekilmiş bir bölüm izlettirdiler izleyiciye resmen. kendi tarihini bu kadar bölen, bu kadar birine ak, ötekine kara diyen, birini hain, birini kahraman yapıp da hiçbir zaman ortadan, gri tondan bakamayan ve hep siyah ile beyazda kaybolan yeryüzünde başka bir toplum daha gösteremezsiniz. masterchef de bunun trajik bir yansıması olmuş.<br/><br/>tarih, üzerinde bu kadar oynamayı kaldırmıyor artık. tarihimiz ile cenk etmeyi bırakalım ve ona her şeyiyle, herkesiyle sahip çıkalım. eleştirimizi de yapalım, hem de sonuna kadar yapalım. ama sahip çıkarak yapalım. çünkü bu tarih bizimdir, bir başka ulusun veya ülkenin değil. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99423",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114930481",
+        "url": "https://eksisozluk.com/entry/114930481",
+      },
+      "title": "masterchef türkiye",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bu ülkede pek çok adamın gittikleri her yerde saat fark etmeksizin kurduğu selamün aleyküm cümlesine görünmez bir toplum baskısı yüzünden benzer şekilde cevap vermekten sıkılmaktır.<br/><br/>çünkü biliyorsunuz sözde milliyetçi, vatansever geçinen bazı insanlar günaydın, iyi günler, iyi akşamlar, iyi geceler demezler. bu topraklarda barınan herkes arapça kelimeler kullanmak, müslüman olmak ve müslüman gibi yaşayıp konuşmak zorunda ya...<br/><br/>allah'ın selamını almıyorsun diye laf sokan oldu. insan bu kadar zorlanmaz.<br/><br/>edit: gelip hakaret edenler olmuş. altını dolduracak sözü olmayanlardan düzgün konuşmalarını beklemek benim hatam.<br/><br/>benim derdim araplaşma, arapçanın kendisi değil. fransızca kelime kullandığın zaman insanları tek dine ve tek mezhebe sokmuş olmuyorsun.<br/><br/>\\"tahammül etmek zorundasın\\" diyen bir arkadaş nedense tahammülün karşılıklı olması gerektiğini unutmuş ya da işine gelmemiş! burası müslüman değil, laik bir ülke. anayasada öyle yazıyor. <br/><br/>takıldığı şeye bak, derdini sikeyim diyenler... benim takıldığım bir şeye siz takılmayabilirsiniz. senin derdin benim derdim de olmayabilir. buradan başlarsak tartışmanın sonu gelmez. acı yarıştıracak ya da en büyük dert benim diye yaygara koparacak değilim. beğenmiyorsanız engelleyip geçin. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99424",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114934028",
+        "url": "https://eksisozluk.com/entry/114934028",
+      },
+      "title": "aleyküm selam diye cevap vermekten sıkılmak",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 2 sene öncesine kadar her şey normal iken halsizlik nedeniyle sen kalk hastaneye git ve o günden sonra hiçbir şey eskisi gibi olmasın.<br/><br/>neden neden neden?<br/><br/>bu kadar sağlıklı, fit, enerjik, mutlu görünen bir insan hiç ölmeyecek gibi geliyordu bana.<br/><br/>çok üzüldüm, çok üzüldük, yine tanımadığımız ama içimizi yakan bir ölüm haberi ile güne başladık. <br/><br/>sıralı ölüm ver allah’ım. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99425",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114935086",
+        "url": "https://eksisozluk.com/entry/114935086",
+      },
+      "title": "dilay kemer",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 kameraların önünde enkazın üstüne çıkarak telefonla yardım şovu yapmaya çalışan rezil akp'nin rezil bakanı. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99426",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114956362",
+        "url": "https://eksisozluk.com/entry/114956362",
+      },
+      "title": "bekir pakdemirli",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 kadınların kadınlarla ilgili yorumlarını şaşkınlıkla okuyorum.<br/><br/>tayt ve crop topları eleştiren bir leydi gördüm. bu tarzın kuku ve göt göstermek için olduğunu, kapalı olanın merak edileceğini söylemiş. mal gibin oluyonuz demiş.<br/>basit falan filan diye gidiyor. 190 kişi de yürü be bacım demiş.<br/><br/>nergis vardı; nergis’i hatırlattı bu bacımız bana.<br/>bir de neslihan vardı. ben o zamanlar tazecik bir uzman yardımcısıyım, bu ablalarım da uzman.<br/>neslihan çok güzel giyiniyor. ne giyse yakışıyor, ne giyse akım oluyor. ben neslihan’a hayran.<br/>onda ne görsem gidip alasım var. giyinmeyi de bilmiyorum zaten. konversten çıkıp işe gelmişim.<br/>nergis de her gün neslihan’ı eleştiriyor. “ben dünyada uğraşmam, ay ne kalkıcam sabah sabah. ay hiç rahat edemem, ay şu, ay bu” <br/>anladınız işte. <br/><br/>kendi öyle olmadığı için eleştiriyordu. bakın kıskanıyor falan demiyorum. kendi öyle olmadığı, tercih etmediği için sürekli farklı olana bok atıyordu.<br/>saçını taramaya hali yoktu, kızın kısacık saçlarına “ay nasıl uğraşıyorsun her gün her gün”<br/>sanane ulan, olmuş işte. hakkını versene.<br/><br/>bu bacımız da belli ki dar kostümlerle pek sevişmiyor. sevişene de son derece çirkin, çirkinden öte terbiyesiz yorumlarla saldırıyor.<br/>şahsen ben utanırım. birine tayt ve büstiyer giyiyor diye mal demek, kukunu gösteriyorsun demek çok ucuz bir saldırı.<br/>bacımız adına ben utandım. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99427",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114945580",
+        "url": "https://eksisozluk.com/entry/114945580",
+      },
+      "title": "bir kadının asla giymemesi gereken şeyler",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 imamoglu yapti bitirdi. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99428",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114936458",
+        "url": "https://eksisozluk.com/entry/114936458",
+      },
+      "title": "mahmutbey mecidiyeköy metro hattı",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 1 sene hükümet desteğiyle şampiyonluğa oynayıp sonraki sene kümede zor kalan trabzonspor bu ülkenin özeti adeta... 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99429",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114962681",
+        "url": "https://eksisozluk.com/entry/114962681",
+      },
+      "title": "30 ekim 2020 trabzonspor kasımpaşa maçı",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 benim. eşimle flört ederken, sene 2009 civarıydı sanırım; <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=dokuzuncu+hariciye+ko%c4%9fu%c5%9fu\\">dokuzuncu hariciye koğuşu</a> kitabımı ödünç vermiştim kendisine. <br/><br/>aradan bir ay geçti, okuduysan geri verebilir misin diye sordum. tamam bugün getiririm, yarın getiririm diye diye beni aylarca oyaladı. <br/><br/>en sonunda ben de pes ettim. ama her buldugum fırsatta kitabımı geri vermedin diye yüzüne vurdum<sup class=\\"ab\\"><a title=\\"(bkz: swh)\\" href=\\"https://eksisozluk.com/?q=swh\\" data-query=\\"swh\\">*</a></sup> . sonradan kendisi söyledi, meğer kaybetmiş kitabımı. o an o kadar sinirlenmiştim ki, hala o yaşadığım duyguyu hatirlayabiliyorum. <br/><br/>sonra aradan 10 yıl geçti, biz evlendik ve kayınvalidem evini temizlerken benim kitabımı bulmuş dolaplardan birinin derinliklerinde. <br/><br/>boyumuzca çocuğumuz olmuş, kitap artık tarihi eser niteliğinde sayılacak neredeyse, adam geldi, al işte getirdim kitabını, yemedik merak etme dedi bir de<sup class=\\"ab\\"><a title=\\"(bkz: swh)\\" href=\\"https://eksisozluk.com/?q=swh\\" data-query=\\"swh\\">*</a></sup> <br/><br/>o gün bugündür, kimseye kitabımı vermem sözlük. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99430",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114925713",
+        "url": "https://eksisozluk.com/entry/114925713",
+      },
+      "title": "ısrarla kitabını geri isteyen tip",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 bitane orospuçocuğu az önce \\"dikkat etsin de sokak köpekleri parçalamasın\\" şeklinde entry girip sildi. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99431",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114957505",
+        "url": "https://eksisozluk.com/entry/114957505",
+      },
+      "title": "köpekleri salın ben kedi sesi çıkarayım",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 isim analisti yazıyor birisinde. zamanında bu típ birisine denk geldim. adımı söyledikten sonra, sen bu ismi değiştirmelisin demişti. sktr çekmiştim hemen. hastalıklı tipler. milleti öpüyorlar. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99432",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114926060",
+        "url": "https://eksisozluk.com/entry/114926060",
+      },
+      "title": "instagram'ın fokur fokur sahte koç kaynaması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 o kadın seni deli gibi severken terk ediyorsan önüne dünyaları da sersen,<br/>incinecek. <br/>hem de öyle böyle değil.. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99433",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114925056",
+        "url": "https://eksisozluk.com/entry/114925056",
+      },
+      "title": "bir kadını incitmeden terk etmenin yolu",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 (bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=hissedilmeyen+sars%c4%b1nt%c4%b1lar%c4%b1n+vaka+say%c4%b1lmamas%c4%b1\\">hissedilmeyen sarsıntıların vaka sayılmaması</a>)<br/>(bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=t%c3%bcik+etkisi\\">tüik etkisi</a>)<br/>(bkz: <a class=\\"b\\" href=\\"https://eksisozluk.com/?q=fay+izinin+sebep+sars%c4%b1nt%c4%b1n%c4%b1n+sonu%c3%a7+olmas%c4%b1\\">fay izinin sebep sarsıntının sonuç olması</a>) 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99434",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114951548",
+        "url": "https://eksisozluk.com/entry/114951548",
+      },
+      "title": "7 şiddetindeki depremi 6.6 olarak açıklamak",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 şov gibi görünse de sonuçta bi iş yapmasıdır. karşılaştırılan diğer kişi ise enkaz üstünde iş yapmadığı gibi yapana da engel olmaktadır. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99435",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114963201",
+        "url": "https://eksisozluk.com/entry/114963201",
+      },
+      "title": "tunç soyer'in çorba dağıtması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 allah siyasal islamcıların ömründen alıp gli’ye versin. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99436",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114926456",
+        "url": "https://eksisozluk.com/entry/114926456",
+      },
+      "title": "gli (ayasofya kedisi)",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 yağma. borçlarını devlet eliyle vatandaşın ödediği, vergi borçları silinen kulüplerin parasız olduğundan bahsedilemez. <br/>bütün kulupleri yagmaliyorlar. siz hala hakem, operasyon diye zirvalayin. aptal herifler. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99437",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114931369",
+        "url": "https://eksisozluk.com/entry/114931369",
+      },
+      "title": "2020-2021 sezonu türk futbolunun avrupa'da çöküşü",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 baskanlik sistemine gectigimizden beri sahlaniyoruz, ucmak icin agirliklari atmak lazim tabi. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99438",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114926145",
+        "url": "https://eksisozluk.com/entry/114926145",
+      },
+      "title": "merkez bankasının 22.3 ton altın satması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 1999 yilinda new york city'de dogdum. lise'yi okumak icin geri dondum, hem de yatili olarak, aileden uzakta. yani baya ozgurce deneyimleme firsatim oldu erken bir yasta bu sehiri. 3 senedir new york'da yasamiyor olmama ragmen, ev diyince hala new york city geliyor aklima. <br/><br/>new york city estetik olarak guzel bir sehir degil. yani evet cok guzel binalar var, central park var ama mesala fiziksel olarak dunya'da cok daha guzel sehirler var. kar yagdigi zaman yarim saate her yer camur olur. copler geceden kapinin onune konur, her yer devasa farelerle doludur. en pahali mahallalerde bile yollarda sican gorursunuz. insanlar amerika'nin baska hic bir yerinde olmadigi kadar kabadir. yazi igrenc ve nemli sicaktir. ev aramaya kalksaniz, boceksiz, faresiz ev bulmak icin ayda en az 10000 dolar gelirinizin olmasi gerekir, yoksa tamamen 50/50 lotodur. metro'da bronx veya queens'den binen hoodrat'lere tahammul etmek zorunda kalirsiniz. kasi gozu yarilmis, neredeyse ic organlari gorunur halde yarali, bazen ciplak, evsiz, uyusturucu bagimlisi insanlar sizle konusmaya calisir. <br/><br/>nyc'de olup baska hic bir yerde olmayan sey, dunyanin merkezinde oldugunuzu hissetmektir. buradan otesi yok hissi. burada yasayan insanlarin kibirli bulunmasinin sebebi de sokakta 20 dakika yuruyunce o ben cok 'badass', cok ozgur bir insanim, her seyi yapabilirim dusuncesinin sehirin her binasindan size yansimasidir. olabileceginiz, yapabileceginiz seylerin siniri yok gibi hisettirir new york. los angeles boyle bir yer degil mesala. los angeles'a gittiginizde zengin degilseniz, yuzunuze fakirlik carpar ihtisamdan. amerika'nin diger sehirlerinde aksam 9'dan sonra sokakta 18 yas alti insan goremezsiniz . new york'da kimse sorgulamaz, underground barlara bile girersiniz, o yonden istanbul'a veya amerikan tabiri ile 'eski dunya' ya benzer. <br/><br/>sabaha karsi 5'te caniniz cig kofte cekse, nyc'de bulabilirsiniz. gece 3'te satranc oynamak istiyorsaniz, iki adim yurmek kafidir. tanimadiginz biri ile, hic konusmadan, direkt sevismek icin 24 saat acik, sadece 10-20 dolar giris ucreti olan adult store'lar, sex club'lar mevcuttur her cinsel yonelimden insan icin. kilise, cami, sinagog, satanist tapinaklari her yerden bir metro<br/><br/>benim icin new york'un estetik olarak essiz oldugu tek donem noel zamani. aslinda benim hafizamda en eski new york anisi, 'evde tek basina' filmidir, cocukluguma goturur hep beni noel zamani new york. isiklar, rockefeller center, billboardlar, her dukkandan gelen 'let it snow, let it snow, let it snow...' sesi.<br/><br/>dunyanin en guzel sehiri midir bilmem ama, sehirlerin sehiridir. sehir hayatinin gelebilecegi son noktadir. gercekten 7/24 full yasayan tek sehirdir. gercekten ozgur olmayi, yenilmezlik duygusunu gayet siradan insanlara yasattirabilen bir sehirdir. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99439",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114955888",
+        "url": "https://eksisozluk.com/entry/114955888",
+      },
+      "title": "new york city'nin dünyanın en güzel şehri olması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 fransa hükümeti bu tür eylemlerde gözdağı verme amaçlı 100 kişinin oturumunu ve vatandaşlığı iptal edip ülkesine siktir etse, anında alayı koyu katolik olur. bundan adım gibi eminim. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99440",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114933506",
+        "url": "https://eksisozluk.com/entry/114933506",
+      },
+      "title": "30 ekim fransa'da gurbetçilere polis müdahalesi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 türkiye'de mimarlık gelecek kaygısı yüzünden ev alıp hayatlarını kurtaracaklarını zanneden, bir ömür ev sahibi olmak için çalışan insanların zihniyetinden nasibini almıştır. <br/><br/>bu zihniyet mimari estetiği yüksek aile köşklerini yıktırıp yerine 5 katlı apartmanlar yaptırmış, bu zihniyet çoluğunu çocuğunu oynatacağı parklara, arabasını park edeceği bir park alanına, kafa dağıtacak kamusal mekanlara talepte bulunmamıştır. bu zihniyet köyden kente göçüp gözüne kestirdiği bir alanı gasp edip gecekondusunu dikmiş, bu zihniyet gecekondusunu apartmana çevirmiş ve bu zihniyete yıllarca oy kaygısı yüzünden göz yumulup sonunda evlerine tapu verilmiştir. bütün bu zihniyetlerin hepsi türkiye'nin mimarlığını geri dönülmez bir şekilde çirkinleşmesine sebep olmuştur. <br/><br/>ev düşkünü bu zihniyet şımarık çocuklar gibi ev ev ev diye tutturmuş ve günün sonunda peşi sıra açılan avmlere mahkum kalmıştır. bu sebeple de günümüz türk insanı çocuğunu avm oyun alanlarına bırakıp hem kafa dinler hem de alışverişini yapar, yapmak zorunda kalır.<br/><br/>türkiye, hem akdeniz hem ortadoğu hem de doğu avrupa ülkesi olmasından nasibini almıştır. türk sokakları portekiz sokaklarını da anımsatır italyan sokaklarını da, yunan sokaklarını da. türk sokakları iran sokaklarını da anımsatır. geniş balkonlu akdeniz usulü apartmanlardan da örnekler vardır, kokuşmuş tabelalarla dolu nefes alınamayacak ortadoğu apartmanlarından da. son zamanlarda 30 katlı bloklardan oluşan tıkış tıkış asya blokları da türkiye' de görülmeye başlanmıştır. özellikle de istanbul'un yatakhane kentlerinde. <br/><br/>4. levent'in gökdelenlerinin sağında ve solunda bambaşka iki hayat vardır. biri türkiye'nin ilk planlı az katlı toplu konut projelerinden biriyken diğeri nefes alınmayacak şekilde apartmanlarla dolu bir mahalle. sapphire adlı çirkin binanın en üst katında böyle bir seyir terası vardı, orası türkiye mimarisinin fotoğrafını gözler önüne seriyor.<br/><br/>türkiye'de mimarlık son 70 yılda dünyanın en kötü, hatta ders niteliğinde kötü olan türlerine ev sahipliği yapmıştır. zamanında avrupa'nın deneyip yıktığı toplu konutlarla doldurduk bütün ülkeyi. planlı olamadık, güzel mahalleler yaratamadık en kötüsü ev ev ev diye didinirken gelecek nesillere kokuşmuş şehirler bıraktık, bıraktınız.<br/><br/>öldükten sonra bile düzenli bir şekilde gitmiyoruz bu ülkeden. mezarlarımız üst üste binmiş kutular gibi, çarpık gecekondu mahalleleri gibi... 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99441",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114943960",
+        "url": "https://eksisozluk.com/entry/114943960",
+      },
+      "title": "dünyada en kötü mimarinin türkiye'de olması",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 merkez bankasının altın satmasına neden olan kur<a rel=\\"nofollow noopener\\" class=\\"url\\" target=\\"_blank\\" href=\\"https://m.bloomberght.com/merkez-bankalari-son-on-yildir-ilk-kez-altin-satiyor-2267526\\" title=\\"https://m.bloomberght.com/merkez-bankalari-son-on-yildir-ilk-kez-altin-satiyor-2267526\\">.</a><br/><br/>kasım’da şirketlerin ödeyeceği döviz cinsi dış borç; 1 milyar 625 milyon, bankaların 3 milyar 765 milyon ve kamunun 522 milyon olmak üzere toplam dış borç 5,9 milyar dolar olacak.<br/><br/>adam o kadar rahat ki açım işsizim ekmek götüremiyorum diyenlere keyif çayı iç diyor. bu kafayı yaşamak istiyorum.<br/><br/>fransa mallarını almayın boykot edin diyor çünkü kendi durumuna göre konuşuyor halkın durumuna göre değil.<br/><br/>fransız şirketlerinden bazıları;<br/><br/>total s.a.: petrol ve gaz<br/>carrefour: perakende<br/>peugeot: otomotiv<br/>renault: otomotiv<br/>l'oréal group: kozmetik<br/>danone: gıda<br/>michelin: otomotiv parçaları<br/>tefal: küçük ev aletleri<br/>axa: sigorta<br/>bnp paribas: bankacılık<br/>teb: turkite ekonomi bankası<br/><br/>şimdi bu adamlar yatırımlarını atıyorum fas, cezayir, bangladeş, ne bileyim hindistan, endonezya gibi ülkelere taşısa ne olacak?<br/><br/>hali hazırda işsizler ordusunun daha da çoğalmasına neden olacak. neyine güvenip de böyle bir risk alıyorsun.<br/><br/>adam safi zarar ya yemin ederim başka birşey değil. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99442",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114933850",
+        "url": "https://eksisozluk.com/entry/114933850",
+      },
+      "title": "30 ekim 2020 dolar kuru",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 zengin patronlara daha çok köle lazım. millet 2300 küsür lirayla modern kölelik yaşıyor. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99443",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114959535",
+        "url": "https://eksisozluk.com/entry/114959535",
+      },
+      "title": "30 ekim 2020 rte'nin 3 çocuk yapın demesi",
+    },
+    Object {
+      "authors": Array [],
+      "categories": Array [],
+      "content": undefined,
+      "description": "
+	            	 o zamana kadar ölmeyi düşünüyorum. yatağımda klasik öleceğime göktaşı çarpmasına şahit olmak isterdim. <br/>giderayak heyecan olur, öbür tarafta anlatırım. 
+	            ",
+      "enclosures": Array [],
+      "id": undefined,
+      "itunes": Object {
+        "authors": Array [],
+        "block": undefined,
+        "duration": undefined,
+        "explicit": undefined,
+        "image": undefined,
+        "isClosedCaptioned": undefined,
+        "order": undefined,
+        "subtitle": undefined,
+        "summary": undefined,
+      },
+      "links": Array [
+        Object {
+          "rel": "",
+          "url": "http://sozlock.com/entry/99444",
+        },
+      ],
+      "published": "Sat, 31 Oct 2020 00:00:00 +0300",
+      "source": Object {
+        "text": "Ekşisözlük/#114928792",
+        "url": "https://eksisozluk.com/entry/114928792",
+      },
+      "title": "dünyaya yaklaşan göktaşının hızlanması",
+    },
+  ],
+  "itunes": Object {
+    "authors": Array [],
+    "block": undefined,
+    "categories": Array [],
+    "complete": undefined,
+    "explicit": undefined,
+    "image": undefined,
+    "newFeedUrl": undefined,
+    "owner": Object {
+      "email": undefined,
+      "name": undefined,
+    },
+    "subtitle": undefined,
+    "summary": undefined,
+  },
+  "language": "tr",
+  "lastPublished": undefined,
+  "lastUpdated": undefined,
+  "links": Array [
+    Object {
+      "rel": "",
+      "url": "http://sozlock.com/",
+    },
+  ],
+  "title": "Sozlock.com",
   "type": "rss-v2",
 }
 `;
