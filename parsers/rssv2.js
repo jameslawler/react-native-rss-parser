@@ -69,6 +69,18 @@ const getChannelImage = (node) => {
   };
 };
 
+const getItemSource = (node) => {
+  const sources = utils.getChildElements(node, 'source');
+  if (!sources || sources.length === 0) {
+    return undefined;
+  }
+  const source = sources[0];
+  return {
+    url: source.getAttribute('url'),
+    text: source.textContent
+  };
+}
+
 const getItemTitle = (node) => utils.getElementTextContent(node, 'title');
 
 const getItemLinks = (node) => {
@@ -164,6 +176,7 @@ const mapItems = (document) => {
     published: getItemPublished(item),
     enclosures: getItemEnclosures(item),
     itunes: itunesParser.parseItem(item),
+    source: getItemSource(item),
   }));
 };
 

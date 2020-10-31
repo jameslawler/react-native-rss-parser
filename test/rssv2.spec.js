@@ -4,6 +4,7 @@ const rssv2MultipleCategories = require('./samples/rssv2-multiple-categories');
 const rssv2InvalidNoChannel = require('./samples/rssv2-invalid-no-channel');
 const rssv2WithItunes = require('./samples/rssv2-with-itunes');
 const rssv2WithContent = require('./samples/rssv2-with-content');
+const rssv2WithSource = require('./samples/rssv2-with-source');
 const rssv2WithDc = require('./samples/rssv2-with-dc');
 const rssParser = require('../index');
 
@@ -134,6 +135,19 @@ describe('when rss parse', () => {
 
       expect(result.items[0].content).toBe('This is test item 1');
       expect(result.items[1].content).toBe('This is test item 2');
+      expect(result).toMatchSnapshot();
+    });
+  });
+
+  describe('with source:encoded elements', () => {
+    it('should return source information for item elements', async () => {
+      const result = await rssParser.parse(rssv2WithSource.feed);
+
+      expect(result.items[0].source.url).toBe('https://eksisozluk.com/entry/114934365');
+      expect(result.items[0].source.text).toBe('Ekşisözlük/#114934365');
+
+      expect(result.items[1].source.url).toBe('https://eksisozluk.com/entry/114949823');
+      expect(result.items[1].source.text).toBe('Ekşisözlük/#114949823');
       expect(result).toMatchSnapshot();
     });
   });
