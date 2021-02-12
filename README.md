@@ -115,6 +115,8 @@ return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
       order: undefined,       // item order number
       subtitle: undefined,    // item subtitle
       summary: undefined,     // item summary
+      episode: undefined,     // episode number
+      season: undefined,      // season number
     }
   }]
 }
