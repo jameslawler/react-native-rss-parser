@@ -47,6 +47,8 @@ exports.feed = `
     <itunes:duration>07:04</itunes:duration>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:order>1</itunes:order>
+    <itunes:episode>1</itunes:episode>
+    <itunes:season>1</itunes:season>
   </entry>
   <entry>
     <title>What Is Sour Dough</title>
