@@ -39,6 +39,8 @@ exports.feed = `
             <itunes:duration>07:04</itunes:duration>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:order>1</itunes:order>
+            <itunes:episode>4</itunes:episode>
+            <itunes:season>1</itunes:season>
         </item>
         <item>
             <title>Socket Wrench Shootout</title>
@@ -53,6 +55,8 @@ exports.feed = `
             <itunes:duration>04:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:order>2</itunes:order>
+            <itunes:episode>3</itunes:episode>
+            <itunes:season>1</itunes:season>
         </item>
         <item>
             <title>The Best Chili</title>
@@ -66,6 +70,8 @@ exports.feed = `
             <itunes:duration>04:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:isClosedCaptioned>Yes</itunes:isClosedCaptioned>
+            <itunes:episode>2</itunes:episode>
+            <itunes:season>1</itunes:season>
         </item>
         <item>
             <title>Red,Whine, &amp; Blue</title>
@@ -78,6 +84,8 @@ exports.feed = `
             <pubDate>Fri, 11 Mar 2016 01:15:00 +3000</pubDate>
             <itunes:duration>03:59</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
+            <itunes:episode>1</itunes:episode>
+            <itunes:season>1</itunes:season>
         </item>
     </channel>
 </rss>

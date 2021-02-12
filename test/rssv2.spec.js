@@ -112,6 +112,9 @@ describe('when rss parse', () => {
       expect(result.items[2].itunes.isClosedCaptioned).toBe('Yes');
       expect(result.items[0].itunes.order).toBe('1');
       expect(result.items[1].itunes.order).toBe('2');
+      expect(result.items[1].itunes.episode).toBe('3');
+      expect(result.items[2].itunes.episode).toBe('2');
+      expect(result.items[2].itunes.season).toBe('1');
       expect(result.items[0].itunes.subtitle).toBe(
         'A short primer on table spices'
       );
