@@ -102,6 +102,7 @@ const rss = {
         order: undefined,
         subtitle: undefined,
         summary: undefined,
+        episodeType: undefined,
       },
     },
   ],
