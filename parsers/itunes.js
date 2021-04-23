@@ -91,6 +91,9 @@ const getSubtitle = (node) =>
 const getSummary = (node) =>
   utils.getElementTextContent(node, 'summary', namespaces.itunes);
 
+const getEpisodeType = (node) =>
+  utils.getElementTextContent(node, 'episodeType', namespaces.itunes);
+
 exports.parseChannel = (node) => ({
   authors: getAuthors(node),
   block: getBlock(node),
@@ -114,4 +117,5 @@ exports.parseItem = (node) => ({
   order: getOrder(node),
   subtitle: getSubtitle(node),
   summary: getSummary(node),
+  episodeType: getEpisodeType(node),
 });
