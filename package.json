@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jameslawler/react-native-rss-parser#readme",
   "dependencies": {
-    "xmldom": "^0.3.0"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "jest": "^26.4.2",
