@@ -1,4 +1,4 @@
-const DOMParser = require('xmldom').DOMParser;
+const DOMParser = require('@xmldom/xmldom').DOMParser;
 const rssV2Parser = require('./parsers/rssv2');
 const atomV1Parser = require('./parsers/atomv1');
 
