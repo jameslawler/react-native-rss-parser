@@ -6,9 +6,9 @@ name: run npm tests.
 
 on:
   push:
-    branches: [run-tests-on-ci]
+    branches: [master]
   pull_request:
-    branches: [run-tests-on-ci]
+    branches: [master]
 
 jobs:
   build:
